@@ -17,11 +17,11 @@ export const About = () => {
   return (
     <>
       <div className="about center">
-        <h1 data-aos="fade-right" className="mobileHead">
+        <h1  id="user-detail-name" data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Uttam Kumar Shaw</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
+        <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
           An Inquisitive solution-driven Full Stack Web Developer.
           Having 1200+ hours of hands-on experience in coding
           and developing real-world web applications with
@@ -40,6 +40,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
             className="link link--icon"
+            id="contact-github"
           >
             <GitHubIcon />
           </a>
@@ -49,6 +50,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="mail"
             className="link link--icon"
+            id="contact-email"
           >
             <EmailIcon />
           </a>
@@ -58,6 +60,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="phone"
             className="link link--icon"
+            id="contact-phone"
           >
             <PhoneIcon />
           </a>
@@ -67,6 +70,7 @@ export const About = () => {
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
+            id="contact-linkedin"
           >
             <LinkedInIcon />
           </a>

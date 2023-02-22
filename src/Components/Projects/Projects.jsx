@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
+  SiChakraui,
   SiBlockchaindotcom,
   SiHtml5,
   SiMaterialui,
@@ -29,28 +30,29 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/V9C8Jm9/rockstar-games.png"
-                    alt="Rockstar Games"
+                    src="https://i.ibb.co/qmh4T0Q/zara.jpg"
+                    alt="Zara Clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Rockstar Games</h2>
+                <h2>Zara Clone</h2>
                 <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                Zara is a popular global fashion brand that offers a wide range of clothing,
+                 footwear, and accessories for men, women, and children. The website, Zara.com,
+                  serves as an online store that allows customers to browse and shop the latest
+                   fashion trends from the comfort of their own homes. 
+
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <FaReact />
-                  <SiMaterialui />
+
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://store-rockstargames.vercel.app/"
+                    href="https://helpful-buttercream-b62142.netlify.app/index.html"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +61,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/aman-638/store.rockstartgames.com-Frontend-Clone"
+                    href="https://github.com/uttamkrshaw/sore-sugar-4125"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -76,26 +78,27 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
+                    src="https://i.ibb.co/F64QJrk/purplle.png"
+                    alt="purplle"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>Purplle Clone</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                Purplle is an online beauty and personal care store that offers a wide 
+                range of products from well-known brands, including skincare, haircare,
+                 makeup, and fragrance. The website aims to provide a hassle-free shopping 
+                 experience with a user-friendly interface and features such as detailed product
+                 descriptions, reviews, and ratings.
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
+                  <FaReact />
+                  <SiChakraui />
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://bright-biscuit-2a261c.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -104,7 +107,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/uttamkrshaw/dirty-parcel-1754"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -120,33 +123,34 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img src="https://i.ibb.co/YN50cfj/cult-fit.png" alt="" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
+                <h2>Cult Fit Clone</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                Cult.fit is a comprehensive health and fitness platform that offers a range of fitness
+                 and wellness services, including online workouts, personal training, nutrition guidance, 
+                 and mental wellness support. The website aims to provide a convenient and accessible way 
+                 for people to achieve their fitness goals, regardless of their location or experience level. 
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://dynamic-chaja-e201fa.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                    See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href="https://github.com/uttamkrshaw/racial-rule-4263"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -164,35 +168,35 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src="https://i.ibb.co/XWJKycc/music.png"
                     alt=""
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>Music Player</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                It is a web-based music player that allows users to play their 
+                favorite music directly from their web browser. The player has a clean
+                 and minimalist interface, making it easy to use for both beginners and advanced users.
+                  The website provides a default playlist of popular tracks that users can enjoy.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiHtml5 />
+                  <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="https://uttamkrshaw.github.io/MUSIC-PLAYER-V2-/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                      See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/uttamkrshaw/MUSIC-PLAYER-V2-"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -204,7 +208,8 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          {/* website 5
+           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -250,7 +255,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>  */}
+        {/* website 6
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -261,6 +267,7 @@ export const Projects = () => {
                   />
                 </div>
               </div>
+
               <div className="project_information">
                 <h2>PulsePlus Clone</h2>
                 <p>
@@ -292,12 +299,13 @@ export const Projects = () => {
                     </span>
                   </a>
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
+          */}
         </div>
       </div>
-      
+
     </>
   );
 };
