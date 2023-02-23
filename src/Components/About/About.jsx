@@ -10,8 +10,8 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
-import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import { Github } from "./Github";
 // import Button from "@mui/material/Button";
 export const About = () => {
   return (

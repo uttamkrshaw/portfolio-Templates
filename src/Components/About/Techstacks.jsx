@@ -26,53 +26,53 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
-            <SiHtml5 />
-            <h5>HTML</h5>
+            <SiHtml5 class="skills-card-img" />
+            <h5 class="skills-card-name">HTML</h5>
           </div>
           <div>
-            <DiCss3 />
-            <h5>CSS</h5>
+            <DiCss3 class="skills-card-img" />
+            <h5 class="skills-card-name">CSS</h5>
           </div>
           <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
+            <SiJavascript class="skills-card-img" />
+            <h5 class="skills-card-name">Javascript</h5>
           </div>
           <div>
-            <FaReact />
-            <h5>React</h5>
+            <FaReact  class="skills-card-img"/>
+            <h5 class="skills-card-name">React</h5>
           </div>
           <div>
-            <SiTypescript />
-            <h5>Typescript</h5>
+            <SiTypescript class="skills-card-img" />
+            <h5 class="skills-card-name">Typescript</h5>
           </div>
           <div>
-            <SiRedux />
-            <h5>Redux</h5>
+            <SiRedux class="skills-card-img" />
+            <h5 class="skills-card-name">Redux</h5>
           </div>
           <div>
-            <SiChakraui />
-            <h5>Chakra UI</h5>
+            <SiChakraui class="skills-card-img" />
+            <h5 class="skills-card-name">Chakra UI</h5>
           </div>
           <div>
-            <SiMaterialui />
-            <h5>MUI</h5>
+            <SiMaterialui  class="skills-card-img"/>
+            <h5 class="skills-card-name">MUI</h5>
           </div>
           <div>
-            <SiTailwindcss />
-            <h5>Tailwind CSS</h5>
+            <SiTailwindcss class="skills-card-img" />
+            <h5 class="skills-card-name">Tailwind CSS</h5>
           </div>
           <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
+            <FaNodeJs class="skills-card-img"/>
+            <h5 class="skills-card-name">Nodejs</h5>
           </div>
           <div>
-            <DiMongodb />
-            <h5>MongoDb</h5>
+            <DiMongodb  class="skills-card-img"/>
+            <h5 class="skills-card-name">MongoDb</h5>
           </div>
 
           <div>
-            <SiExpress />
-            <h5>Express</h5>
+            <SiExpress class="skills-card-img" />
+            <h5 class="skills-card-name">Express</h5>
           </div>
           {/* <div>
             <VscGithub />
