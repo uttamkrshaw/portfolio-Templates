@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.34d1dcc6.css",
-    "main.js": "/static/js/main.8b224d3a.js",
+    "main.js": "/static/js/main.036d2177.js",
     "static/media/profile.JPG": "/static/media/profile.28f55264f47c277e5f91.JPG",
     "static/media/Uttam_Kumar_Shaw_Resume.pdf": "/static/media/Uttam_Kumar_Shaw_Resume.84fe362807870e2bdd6f.pdf",
     "index.html": "/index.html",
     "main.34d1dcc6.css.map": "/static/css/main.34d1dcc6.css.map",
-    "main.8b224d3a.js.map": "/static/js/main.8b224d3a.js.map"
+    "main.036d2177.js.map": "/static/js/main.036d2177.js.map"
   },
   "entrypoints": [
     "static/css/main.34d1dcc6.css",
-    "static/js/main.8b224d3a.js"
+    "static/js/main.036d2177.js"
   ]
 }
