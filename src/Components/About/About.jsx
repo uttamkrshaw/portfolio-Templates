@@ -28,10 +28,6 @@ export const About = () => {
           TechStack like HTML, CSS, JavaScript, React, TypeScript,
           Redux, NodeJS, MongoDB & Mongoose. Passionate
           about learning new technologies and methodologies.
-          {/* Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now. */}
         </p>
         <div className="about__contact center">
           <a
@@ -50,7 +46,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="mail"
             className="link link--icon"
-            id="contact-email"
+            
           >
             <EmailIcon />
           </a>
@@ -60,7 +56,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="phone"
             className="link link--icon"
-            id="contact-phone"
+            
           >
             <PhoneIcon />
           </a>
@@ -97,7 +93,6 @@ export const About = () => {
         </button>
       </div>
       <Introduction />
-      {/* <Timeline /> */}
       <section id="#skills">
         <Techstacks />
       </section>

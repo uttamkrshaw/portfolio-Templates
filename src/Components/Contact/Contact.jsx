@@ -45,7 +45,7 @@ export const Contact = () => {
               <BsFillTelephoneFill className="phone" />
             </a>
           </div>
-          <div className="mailNumber" data-aos="fade-right">
+          <div id="contact-email" className="mailNumber" data-aos="fade-right">
             <div>
               <span>
                 <CgMail className="email" />
@@ -54,7 +54,7 @@ export const Contact = () => {
                 <p>uttamkr5599@gmail.com</p>
               </span>
             </div>
-            <div className="iconsCont">
+            <div id="contact-phone" className="iconsCont">
               <span>
                 <BsFillTelephoneFill className="phone" />
               </span>

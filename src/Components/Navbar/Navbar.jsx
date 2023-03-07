@@ -26,7 +26,7 @@ export const Navbar = () => {
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
         >
-          <li id="home" className="nav__list-item">
+          <li id="home"  class="nav-link home"  className="nav__list-item">
             <a
               href="#home"
               onClick={() => toggleNavList("#home")}
@@ -36,7 +36,7 @@ export const Navbar = () => {
               Home
             </a>
           </li>
-          <li  id="about" class="about section" className="nav__list-item">
+          <li  id="about" class="nav-link about" class="about section" className="nav__list-item">
             <a
               href="#about"
               onClick={() => toggleNavList("#about")}
@@ -46,7 +46,7 @@ export const Navbar = () => {
               About
             </a>
           </li>
-          <li id="skills" className="nav__list-item">
+          <li  id="skills"  class="nav-link skills"  className="nav__list-item">
             <a
               href="#skills"
               onClick={() => toggleNavList("#skills")}
@@ -56,7 +56,7 @@ export const Navbar = () => {
               Skills
             </a>
           </li>
-          <li  id="projects" className="nav__list-item">
+          <li id="projects"  class="nav-link projects"  className="nav__list-item">
             <a
               href="#projects"
               onClick={() => toggleNavList("#projects")}
@@ -66,7 +66,7 @@ export const Navbar = () => {
               Projects
             </a>
           </li>
-          <li id="contact" className="nav__list-item">
+          <li  id="contact"  class="nav-link contact"  className="nav__list-item">
             <a
               href="#contact"
               onClick={() => toggleNavList("#contact")}
@@ -76,15 +76,17 @@ export const Navbar = () => {
               Contact
             </a>
           </li>
-          <li className="nav__list-item">
+          <li class="nav-link resume" className="nav__list-item">
             <a
-              href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-              onClick={toggleNavList}
+            download="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+            href="https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
+              // href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+              // onClick={() => toggleNavList("#contact")}
               className="link link--nav"
               target="_blank"
               rel="noreferrer"
               class="nav-link resume"
-              
+              onClick={()=>{<a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download" ></a>}}
             >
               Resume
             </a>

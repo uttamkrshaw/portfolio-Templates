@@ -24,8 +24,8 @@ export const Projects = () => {
     <>
       <div className="section">
         <h2 className="section__title different">Projects</h2>
-        <div class="project-card" className="allProjects">
-          <div  className="projects_container" data-aos="fade-right">
+        <div className="allProjects">
+          <div class="project-card"  className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -74,7 +74,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          <div class="project-card" className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -122,7 +122,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          <div class="project-card" className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -167,8 +167,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-
-          <div className="projects_container" data-aos="fade-right">
+          <div class="project-card" className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
