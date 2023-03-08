@@ -17,7 +17,7 @@ export const About = () => {
   return (
     <>
       <div className="about center">
-        <h1  id="user-detail-name" data-aos="fade-right" className="mobileHead">
+        <h1 id="user-detail-name" data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Uttam Kumar Shaw</span>
         </h1>
         <Type />
@@ -46,7 +46,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="mail"
             className="link link--icon"
-            
+
           >
             <EmailIcon />
           </a>
@@ -56,7 +56,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="phone"
             className="link link--icon"
-            
+
           >
             <PhoneIcon />
           </a>
@@ -83,13 +83,15 @@ export const About = () => {
 
         <button
           className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
-            );
-          }}
+        // onClick={() => {
+        //   window.open(
+        //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
+        //   );
+        // }}
         >
-          Resume
+          <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download" target="_blank" download="Uttam_Kumar_Shaw_Resume.pdf">
+            Resume
+          </a>
         </button>
       </div>
       <Introduction />

@@ -78,15 +78,11 @@ export const Navbar = () => {
           </li>
           <li class="nav-link resume" className="nav__list-item">
             <a
-            download="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-            href="https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
-              // href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-              // onClick={() => toggleNavList("#contact")}
-              className="link link--nav"
+            //href="https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
+            href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+              // className="link link--nav"
               target="_blank"
-              rel="noreferrer"
-              class="nav-link resume"
-              onClick={()=>{<a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download" ></a>}}
+              download="Uttam_Kumar_Shaw_Resume.pdf"
             >
               Resume
             </a>

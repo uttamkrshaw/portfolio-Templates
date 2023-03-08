@@ -57,3 +57,34 @@
     height: 18vh;
   }
 }
+/* Testing proc
+
+.clip{
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.clip img{
+  width: 90% ;
+  height: 90%;
+}
+
+@keyframes clipMe{
+  0%, 100% {clip: rect(0, 100px, 2px, 0);}
+  25% {clip: rect(0, 2px, 100px, 0);}
+  25% {clip: rect(90px, 100px, 100px, 0);}
+  25% {clip: rect(0, 100px, 100px, 98px);}
+}
+.clip::before,
+.clip::after{
+  content: "";
+  position: absolute; top: 0; left: 0;
+  width: 110%; height: 110%; margin: -5%;
+  box-shadow: inset 0 0 0 2px #f7f7f7;
+  animation: clipMe 3s linear infinite;
+
+}
+
+.clip::before {animation-delay: -1.5s;}
+
+*/

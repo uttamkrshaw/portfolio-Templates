@@ -28,6 +28,9 @@ import mongo from "../../assets/mongo.png";
 import chakra from "../../assets/chakra.png";
 import redux from "../../assets/redux.png";
 import typescript from "../../assets/typescript.png";
+import mui from "../../assets/mui.png";
+import express from "../../assets/express.png";
+
 
 
 
@@ -80,7 +83,8 @@ export const Techstacks = () => {
             <h5 class="skills-card-name">Chakra UI</h5>
           </div>
           <div class="skills-card">
-            <SiMaterialui  class="skills-card-img"/>
+            {/* <SiMaterialui  class="skills-card-img"/> */}
+            <img class="skills-card-img" src={mui} alt="" />
             <h5 class="skills-card-name">MUI</h5>
           </div>
           <div class="skills-card">
@@ -100,7 +104,9 @@ export const Techstacks = () => {
           </div>
 
           <div class="skills-card">
-            <SiExpress class="skills-card-img" />
+            {/* <SiExpress class="skills-card-img" /> */}
+            <img  class="skills-card-img" src={express} alt="" srcset="" />
+
             <h5 class="skills-card-name">Express</h5>
           </div>
           {/* <div>
