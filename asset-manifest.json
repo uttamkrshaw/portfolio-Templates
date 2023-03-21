@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.171a895d.css",
-    "main.js": "/static/js/main.43adff92.js",
+    "main.js": "/static/js/main.72c82553.js",
     "static/media/Uttam_Kumar_Shaw_Resume.pdf": "/static/media/Uttam_Kumar_Shaw_Resume.6595edfd29fe207f7752.pdf",
     "static/media/profile.JPG": "/static/media/profile.28f55264f47c277e5f91.JPG",
     "static/media/chakra.png": "/static/media/chakra.6d4684d36d618b85afe2.png",
@@ -13,19 +13,19 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "static/media/express.png": "/static/media/express.339f20e26fe8d2ffcf33.png",
     "static/media/studio.webp": "/static/media/studio.034361ab8cb56f34919b.webp",
     "static/media/slack.webp": "/static/media/slack.5b17f53a06df0872cea1.webp",
     "static/media/postman.webp": "/static/media/postman.7066eb08ea17b7fe2069.webp",
+    "static/media/express.webp": "/static/media/express.b1ea2a56a1684a950424.webp",
     "static/media/aftereffect.webp": "/static/media/aftereffect.38e605c61ba15abbbc61.webp",
     "static/media/photoshop.webp": "/static/media/photoshop.7fa0ab5f19e90d470abe.webp",
     "static/media/premierpro.webp": "/static/media/premierpro.a0068d4694649cd85a60.webp",
     "index.html": "/index.html",
     "main.171a895d.css.map": "/static/css/main.171a895d.css.map",
-    "main.43adff92.js.map": "/static/js/main.43adff92.js.map"
+    "main.72c82553.js.map": "/static/js/main.72c82553.js.map"
   },
   "entrypoints": [
     "static/css/main.171a895d.css",
-    "static/js/main.43adff92.js"
+    "static/js/main.72c82553.js"
   ]
 }
