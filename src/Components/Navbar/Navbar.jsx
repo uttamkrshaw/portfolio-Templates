@@ -56,7 +56,7 @@ export const Navbar = () => {
               Skills
             </a>
           </li>
-          <li id="projects"  class="nav-link projects"  className="nav__list-item">
+          <li  class="nav-link projects"  className="nav__list-item">
             <a
               href="#projects"
               onClick={() => toggleNavList("#projects")}
@@ -66,7 +66,7 @@ export const Navbar = () => {
               Projects
             </a>
           </li>
-          <li  id="contact"  class="nav-link contact"  className="nav__list-item">
+          <li    class="nav-link contact"  className="nav__list-item">
             <a
               href="#contact"
               onClick={() => toggleNavList("#contact")}

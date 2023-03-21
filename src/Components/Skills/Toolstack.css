@@ -1,16 +1,17 @@
 .main {
     margin-top: 4em;
-  }
-  .techsection {
+}
+
+.toolsection {
     width: 100%;
     text-align: center;
     background-color: var(--clr-bg);
     height: 50vh;
     /* max-height: 400px; */
-  }
-  
-  .techsection > div {
-    width: 11%;
+}
+
+.toolsection>div {
+    width: 18%;
     height: 16vh;
     max-height: 140px;
     box-shadow: var(--shadow);
@@ -24,40 +25,44 @@
     align-items: center;
     transition: all 0.5s ease 0s;
     border: 2px solid var(--clr-primary);
-  }
-  .techsection > div:hover {
+}
+
+.toolsection>div:hover {
     background-color: var(--clr-bg);
     overflow: hidden;
     transform: scale(1.08);
     box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border: 1px solid var(--clr-primary);
-  }
-  
-  .techsection > div > svg {
+}
+
+.toolsection>div>svg {
     /* height: 50%;
     width: 50%; */
     font-size: 8vh;
     color: var(--clr-primary);
-  }
-  .techsection > div > h5 {
+}
+
+.toolsection>div>h5 {
     position: relative;
     top: 8px;
     background-color: transparent;
-  }
-  
-  @media (max-width: 600px) {
-    .techsection {
-      height: 120vh;
+}
+
+@media (max-width: 600px) {
+    .toolsection {
+        height: 120vh;
     }
-    .techsection > div {
-      width: 40%;
-      margin-right: 5%;
-      margin-bottom: 2%;
-      height: 18vh;
+
+    .toolsection>div {
+        width: 40%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        height: 18vh;
     }
-  }
-  /* Testing proc
+}
+
+/* Testing proc
   
   .clip{
     position: relative;

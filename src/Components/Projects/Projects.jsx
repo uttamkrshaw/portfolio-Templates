@@ -22,6 +22,7 @@ import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
     <>
+    <section  id='#projects'>
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
@@ -311,7 +312,7 @@ export const Projects = () => {
           */}
         </div>
       </div>
-
+      </section>
     </>
   );
 };

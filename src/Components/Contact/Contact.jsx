@@ -11,6 +11,7 @@ export const Contact = () => {
 
   return (
     <>
+    <section id="#contact">
       <div className="section">
         <h2 className="section__title" data-aos="zoom-out-up">
           Get in <span className="different">Touch</span>
@@ -65,6 +66,7 @@ export const Contact = () => {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 };
