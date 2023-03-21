@@ -1,60 +1,72 @@
-.about {
-  flex-direction: column;
-  margin-top: 3em;
+.introduction {
+  width: 100%;
+  display: flex;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
-.about__name {
+
+.different {
   color: var(--clr-primary);
 }
-.about > :nth-child(2) {
-  margin-top: 1.2em;
-  font-size: 2rem;
-  line-height: 1.2;
-  color: var(--clr-fg-alt);
+
+.introduction_logocontainer {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
 }
 
-.about__desc {
-  font-size: 1rem;
-  max-width: 70%;
-  text-align: center;
-}
-
-.about__desc,
-.about__contact {
-  margin-top: 2.4em;
-}
-
-.about .link--icon {
-  margin-right: 0.8em;
-}
-
-.about .btn--outline {
-  margin-right: 1em;
-}
-.btnResume{
-  color: var(--clr-primary);
+.introduction_logocontainer > img {
+  width: 55%;
+  height: 85%;
+  border-radius: 10%;
   border: 2px solid var(--clr-primary);
-  border-radius: 5px;
-  height: 50px;
-  cursor: pointer;
-  padding: 0px 30px;
-  margin-top: 10px;
-}
-.btnResume:hover{
-  background-color: var(--clr-primary);
-  color: var(--clr-bg);
 }
 
-@media (max-width: 600px) {
-  .mobileHead{
-    align-content: center;
-  }
-  .app .about {
-    align-items: flex-start;
+.introduction_datacontainer {
+  flex-basis: 55%;
+}
+
+.introduction_datacontainer > h4:nth-child(1) {
+  margin-top: 0;
+  line-height: 1.4em;
+}
+
+.introduction_datacontainer > h4:nth-child(2) {
+  margin-top: 1.4em;
+  line-height: 1.4em;
+}
+
+.introduction_datacontainer > h4 {
+  font-size: 1.1em;
+  margin-top: 0.5em;
+}
+
+.icons {
+  position: relative;
+  top: 5px;
+  color: var(--clr-fg-alt);
+  margin-right: 0.5em;
+}
+
+@media (max-width: 1022px) {
+  .introduction {
+    flex-direction: column;
     margin-top: 2em;
-    justify-content: center;
-    align-items: center;
   }
-  .about > :nth-child(2) {
-    font-size: 1.5rem;
+  .introduction_logocontainer {
+    margin-bottom: 3em;
+    flex-basis: 30%;
+  }
+  .introduction_logocontainer > img {
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;  
+    border-radius: 10%;
+    border: 2px solid var(--clr-primary);
+  }
+  .introduction_datacontainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-basis: 70%;
   }
 }

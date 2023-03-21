@@ -36,7 +36,7 @@ export const Navbar = () => {
               Home
             </a>
           </li>
-          <li  id="about" class="nav-link about" class="about section" className="nav__list-item">
+          <li   class="nav-link about" class="about section" className="nav__list-item">
             <a
               href="#about"
               onClick={() => toggleNavList("#about")}
@@ -46,7 +46,7 @@ export const Navbar = () => {
               About
             </a>
           </li>
-          <li  id="skills"  class="nav-link skills"  className="nav__list-item">
+          <li    class="nav-link skills"  className="nav__list-item">
             <a
               href="#skills"
               onClick={() => toggleNavList("#skills")}
@@ -78,9 +78,7 @@ export const Navbar = () => {
           </li>
           <li class="nav-link resume" className="nav__list-item">
             <a
-            //href="https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
             href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-              // className="link link--nav"
               target="_blank"
               download="Uttam_Kumar_Shaw_Resume.pdf"
             >
