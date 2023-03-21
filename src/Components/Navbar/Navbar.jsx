@@ -81,7 +81,8 @@ export const Navbar = () => {
             href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
               target="_blank"
               download="Uttam_Kumar_Shaw_Resume.pdf"
-              id="resume-link-1"
+              id="resume-button-1"
+              class="nav-link resume"
             >
               Resume
             </a>

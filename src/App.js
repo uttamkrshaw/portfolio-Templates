@@ -11,7 +11,8 @@ import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import { Header } from "./Components/Header/Header";
 import { Home } from "./Components/Home/Home";
-import { Skills } from "./Components/Skills/Skills";
+import { Skills } from "./Components/Skills/Techstacks";
+import { Github } from "./Components/Github/Github";
 export default function App() {
   const [{themename}] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -25,6 +26,7 @@ export default function App() {
       <Home />
       <About />
       <Skills />
+      <Github />
       <Projects />
       <Contact />
       </main>
