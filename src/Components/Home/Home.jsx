@@ -63,19 +63,20 @@ export const Home = () => {
               target="_blank"
               rel="noreferrer"
               id="contact-linkedin"
-              id="contact-linkedin"
             >
               <LinkedInIcon />
             </a>
-            {/* <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a> */}
+          </div>
+          <div>
+            <button className="btnResume">
+              <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+                target="_blank"
+                download="Uttam_Kumar_Shaw_Resume.pdf"
+                id="resume-button-2"
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </div>
       </section>

@@ -36,7 +36,7 @@ export const Navbar = () => {
               Home
             </a>
           </li>
-          <li id="about" class="nav-link about" class="about section" className="nav__list-item">
+          <li id="about" class="nav-link about about section"  className="nav__list-item">
             <a
               href="#about"
               onClick={() => toggleNavList("#about")}
@@ -81,6 +81,7 @@ export const Navbar = () => {
             href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
               target="_blank"
               download="Uttam_Kumar_Shaw_Resume.pdf"
+              rel="noreferrer"
               id="resume-button-1"
               class="nav-link resume"
             >

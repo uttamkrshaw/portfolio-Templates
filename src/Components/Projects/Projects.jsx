@@ -1,37 +1,11 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
-import {
-  SiChakraui,
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
-
 import css from "../../assets/css.png";
 import html from "../../assets/html.png";
 import javascript from "../../assets/javascript.png";
 import react from "../../assets/react.png";
-import node from "../../assets/node.png";
-import tailwind from "../../assets/tailwind.png";
-import mongo from "../../assets/mongo.png";
 import chakra from "../../assets/chakra.png";
 import redux from "../../assets/redux.png";
-import typescript from "../../assets/typescript.png";
-import mui from "../../assets/mui.png";
-import express from "../../assets/express.webp";
 
 
 
@@ -112,6 +86,8 @@ export const Projects = () => {
                   <div class="project-tech-stack">
                     <img src={react} alt="" srcset="" />
                     <img src={chakra} alt="" srcset="" />
+                    <img src={redux} alt="" srcset="" />
+
                   </div>
                   <div>
                     <a

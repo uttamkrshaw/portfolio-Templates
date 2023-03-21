@@ -1,23 +1,5 @@
 import React from "react";
 import "./Toolstack.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiAmazonaws } from 'react-icons/si';
-import {
-  SiRedux,
-  SiHtml5,
-  SiMaterialui,
-  SiExpress,
-  SiRedis,
-  SiTailwindcss,
-  SiNetlify,
-  SiFirebase,
-  SiTypescript,
-  SiChakraui
-} from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap, BsWordpress } from "react-icons/bs";
 import aftereffect from "../../assets/aftereffect.webp";
 import npm from "../../assets/npm.png";
 import photoshop from "../../assets/photoshop.webp";
