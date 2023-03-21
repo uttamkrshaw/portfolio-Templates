@@ -1,23 +1,5 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiAmazonaws } from 'react-icons/si';
-import {
-  SiRedux,
-  SiHtml5,
-  SiMaterialui,
-  SiExpress,
-  SiRedis,
-  SiTailwindcss,
-  SiNetlify,
-  SiFirebase,
-  SiTypescript,
-  SiChakraui
-} from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap, BsWordpress } from "react-icons/bs";
 import css from "../../assets/css.png";
 import html from "../../assets/html.png";
 import javascript from "../../assets/javascript.png";
@@ -29,7 +11,7 @@ import chakra from "../../assets/chakra.png";
 import redux from "../../assets/redux.png";
 import typescript from "../../assets/typescript.png";
 import mui from "../../assets/mui.png";
-import express from "../../assets/express.png";
+import express from "../../assets/express.webp";
 import { Toolstack } from "./Toolstack";
 
 export const Skills = () => {
