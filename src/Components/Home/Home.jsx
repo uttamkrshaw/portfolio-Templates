@@ -41,7 +41,7 @@ export const Home = () => {
             rel="noreferrer"
             aria-label="mail"
             className="link link--icon"
-
+            id="contact-email"
           >
             <EmailIcon />
           </a>
@@ -51,7 +51,7 @@ export const Home = () => {
             rel="noreferrer"
             aria-label="phone"
             className="link link--icon"
-
+            id="contact-phone"
           >
             <PhoneIcon />
           </a>
@@ -61,6 +61,7 @@ export const Home = () => {
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
+            id="contact-linkedin"
             id="contact-linkedin"
           >
             <LinkedInIcon />
@@ -84,7 +85,11 @@ export const Home = () => {
         //   );
         // }}
         >
-          <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download" target="_blank" download="Uttam_Kumar_Shaw_Resume.pdf">
+          <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+            target="_blank"
+            download="Uttam_Kumar_Shaw_Resume.pdf"
+            id="resume-link-2"
+            >
             Resume
           </a>
         </button>

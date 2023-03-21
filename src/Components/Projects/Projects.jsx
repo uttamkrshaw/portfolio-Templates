@@ -26,8 +26,8 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-          <div class="project-card"  className="projects_container" data-aos="fade-right">
-            <div className="project">
+          <div className="projects_container" data-aos="fade-right">
+            <div class="project-card" className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
@@ -43,7 +43,6 @@ export const Projects = () => {
                  footwear, and accessories for men, women, and children. The website, Zara.com,
                   serves as an online store that allows customers to browse and shop the latest
                    fashion trends from the comfort of their own homes. 
-
                 </p>
                 <div class="project-tech-stack">
                   <SiHtml5 />
@@ -75,8 +74,8 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="project-card" className="projects_container" data-aos="fade-right">
-            <div className="project">
+          <div className="projects_container" data-aos="fade-right">
+            <div class="project-card" className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
@@ -123,8 +122,8 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="project-card" className="projects_container" data-aos="fade-right">
-            <div className="project">
+          <div className="projects_container" data-aos="fade-right">
+            <div class="project-card" className="project">
               <div className="project_videocontainer">
                 <div>
                   <img src="https://i.ibb.co/k2890Bj/cult-fit.png" alt="cultfit" />
@@ -168,8 +167,8 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="project-card" className="projects_container" data-aos="fade-right">
-            <div className="project">
+          <div className="projects_container" data-aos="fade-right">
+            <div  class="project-card" className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
