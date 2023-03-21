@@ -15,7 +15,7 @@ export const About = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img  class="home-img" src={profilePic} alt="Images" />
+              <img class="home-img" src={profilePic} alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
@@ -28,7 +28,7 @@ export const About = () => {
                 . I have completed my graduation in B.A (Economics Hons)
                 from{" "}
                 <span className="different">
-                  B.S.K College, Maithon 
+                  B.S.K College, Maithon
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> which is a military style
@@ -59,7 +59,19 @@ export const About = () => {
                 </span>
                 Reader{" "}
               </h4>
+              <div>
+                <button className="btnResume">
+                  <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+                    target="_blank"
+                    download="Uttam_Kumar_Shaw_Resume.pdf"
+                    id="resume-button-2"
+                  >
+                     Resume
+                  </a>
+                </button>
+              </div>
             </div>
+
           </div>
         </div>
       </section>

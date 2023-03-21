@@ -77,17 +77,6 @@ export const Home = () => {
             <TwitterIcon />
           </a> */}
           </div>
-          <div>
-          <button className="btnResume">
-              <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-                target="_blank"
-                download="Uttam_Kumar_Shaw_Resume.pdf"
-                id="resume-button-2"
-              >
-                Resume
-              </a>
-            </button>
-          </div>
         </div>
       </section>
     </>
