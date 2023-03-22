@@ -17,7 +17,7 @@ export const Home = () => {
             Hello, I am <span className="about__name">Uttam Kumar Shaw</span>
           </h1>
           <Type />
-          <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
+          <p className="about__desc" data-aos="fade-right">
             An Inquisitive solution-driven Full Stack Web Developer(MERN).
             Having 1200+ hours of hands-on experience in coding
             and developing real-world web applications with
@@ -94,3 +94,5 @@ export const Home = () => {
 // ></button>
 //          </div >
 //          </div >
+
+//id="user-detail-intro" add on line 20

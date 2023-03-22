@@ -12,12 +12,12 @@ import redux from "../../assets/redux.png";
 export const Projects = () => {
   return (
     <>
-      <section id='#projects'>
+      <section id='projects'>
         <div className="section">
           <h2 className="section__title different">Projects</h2>
           <div className="allProjects">
-            <div className="projects_container" data-aos="fade-right">
-              <div class="project-card" className="project">
+            <div className="projects_container project-card" data-aos="fade-right">
+              <div  className="project">
                 <div className="project_videocontainer">
                   <div>
                     <img
@@ -64,8 +64,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="projects_container" data-aos="fade-right">
-              <div class="project-card" className="project">
+            <div className="projects_container project-card" data-aos="fade-right">
+              <div  className="project">
                 <div className="project_videocontainer">
                   <div>
                     <img
@@ -114,8 +114,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="projects_container" data-aos="fade-right">
-              <div class="project-card" className="project">
+            <div className="projects_container project-card" data-aos="fade-right">
+              <div  className="project">
                 <div className="project_videocontainer">
                   <div>
                     <img src="https://i.ibb.co/k2890Bj/cult-fit.png" alt="cultfit" />
@@ -159,8 +159,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="projects_container" data-aos="fade-right">
-              <div class="project-card" className="project">
+            <div className="projects_container project-card" data-aos="fade-right">
+              <div className="project">
                 <div className="project_videocontainer">
                   <div>
                     <img

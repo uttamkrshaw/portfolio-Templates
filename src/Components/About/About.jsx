@@ -8,9 +8,9 @@ export const About = () => {
   const [{ themename }] = React.useContext(ThemeContext);
   return (
     <>
-      <section id="#about">
+      <section id="about" class="about section">
         <div className="section" data-aos="fade-right">
-          <h2 class="about section" className="section__title">
+          <h2 className="section__title">
             About <span className="different">Me</span>
           </h2>
           <div className={"introduction " + themename}>

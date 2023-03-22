@@ -17,7 +17,7 @@ import { Toolstack } from "./Toolstack";
 export const Skills = () => {
   return (
     <>
-      <section id="#skills">
+      <section id="skills">
         <div className="section main" data-aos="fade-down">
           <h2 className="section__title different">Skills</h2>
           <div className="techsection">
