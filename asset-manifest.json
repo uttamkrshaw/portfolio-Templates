@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.171a895d.css",
-    "main.js": "/static/js/main.72c82553.js",
+    "main.js": "/static/js/main.9d445782.js",
     "static/media/Uttam_Kumar_Shaw_Resume.pdf": "/static/media/Uttam_Kumar_Shaw_Resume.6595edfd29fe207f7752.pdf",
     "static/media/profile.JPG": "/static/media/profile.28f55264f47c277e5f91.JPG",
     "static/media/chakra.png": "/static/media/chakra.6d4684d36d618b85afe2.png",
@@ -22,10 +22,10 @@
     "static/media/premierpro.webp": "/static/media/premierpro.a0068d4694649cd85a60.webp",
     "index.html": "/index.html",
     "main.171a895d.css.map": "/static/css/main.171a895d.css.map",
-    "main.72c82553.js.map": "/static/js/main.72c82553.js.map"
+    "main.9d445782.js.map": "/static/js/main.9d445782.js.map"
   },
   "entrypoints": [
     "static/css/main.171a895d.css",
-    "static/js/main.72c82553.js"
+    "static/js/main.9d445782.js"
   ]
 }
