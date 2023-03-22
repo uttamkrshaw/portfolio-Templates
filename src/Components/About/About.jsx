@@ -17,7 +17,7 @@ export const About = () => {
             <div className="introduction_logocontainer">
               <img class="home-img" src={profilePic} alt="Images" />
             </div>
-            <div className="introduction_datacontainer">
+            <div id="user-detail-intro" className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
                 <span className="different">Uttam Kumar Shaw </span> and I am from{" "}
@@ -32,7 +32,7 @@ export const About = () => {
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> which is a military style
-                coding school. In Masai School we get to learn both <span  className="different"> Frontend & Backend Technologies</span> like  <span id="user-detail-intro" className="different"> HTML,CSS, JavaScript,
+                coding school. In Masai School we get to learn both <span  className="different"> Frontend & Backend Technologies</span> like  <span className="different"> HTML,CSS, JavaScript,
                 MongoDB, NodeJS & Express.</span>
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
