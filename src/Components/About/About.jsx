@@ -10,7 +10,7 @@ export const About = () => {
     <>
       <section id="#about">
         <div className="section" data-aos="fade-right">
-          <h2 className="section__title">
+          <h2 class="about section" className="section__title">
             About <span className="different">Me</span>
           </h2>
           <div className={"introduction " + themename}>
@@ -32,7 +32,8 @@ export const About = () => {
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> which is a military style
-                coding school.
+                coding school. In Masai School we get to learn both <span  className="different"> Frontend & Backend Technologies</span> like  <span  className="different user-detail-intro"> HTML,CSS, JavaScript,
+                MongoDB, NodeJS & Express.</span>
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">

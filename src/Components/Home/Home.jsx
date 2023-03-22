@@ -18,7 +18,7 @@ export const Home = () => {
           </h1>
           <Type />
           <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
-            An Inquisitive solution-driven Full Stack Web Developer.
+            An Inquisitive solution-driven Full Stack Web Developer(MERN).
             Having 1200+ hours of hands-on experience in coding
             and developing real-world web applications with
             TechStack like HTML, CSS, JavaScript, React, TypeScript,
