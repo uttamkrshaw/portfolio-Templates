@@ -32,7 +32,7 @@ export const About = () => {
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> which is a military style
-                coding school. In Masai School we get to learn both <span  className="different"> Frontend & Backend Technologies</span> like  <span  className="different user-detail-intro"> HTML,CSS, JavaScript,
+                coding school. In Masai School we get to learn both <span  className="different"> Frontend & Backend Technologies</span> like  <span id="user-detail-intro" className="different"> HTML,CSS, JavaScript,
                 MongoDB, NodeJS & Express.</span>
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
