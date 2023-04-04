@@ -1,37 +1,91 @@
-.nav__list {
-  margin-right: 1.5em;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  border-radius: 7px !important;
+  margin: 0%;
+  padding: 0%;
+  border: 6px solid rgb(240, 19, 11);
+  border-bottom: none !important;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.navbar_container {
+  padding-top: 10px;
   display: flex;
-}
-.nav__list-item {
-  margin-left: 1.5em;
-}
-.app .nav__hamburger {
-  display: none;
-}
-.nav__theme {
-  margin-top: 0.4em;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media (max-width: 600px) {
-  .nav__list {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-  }
+.navbar_left_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.navbar_left_logo h2 {
+  font-weight: 800;
+  font-size: 33px;
+}
+.navbar_left_logo span {
+  color: #e4002b;
+}
 
-  .nav__list-item {
-    margin: 0.5em 0;
-  }
+.navbar_right {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
 
-  .app .nav__hamburger {
-    display: flex;
-    z-index: 2;
-    margin-left: 0.8em;
-  }
+.navbar_right li a,
+button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 0 15px;
+}
+
+.navbar_right a:hover {
+  background-color: #e4002b;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+/* -------------------------Tablet------------------------------------------- */
+
+.Ultablet {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.Ultablet li {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.Ultablet li:hover {
+  cursor: pointer;
+  height: 80px;
+  width: 100%;
+  background-color: #96bae9;
 }

@@ -1,72 +1,93 @@
-.introduction {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  transition: 0.3s ease;
+}
+
+.about section {
+  padding: 20px 0;
+}
+.about_heading {
+  text-align: center;
+  padding: 60px 0;
+}
+.about_heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about_heading span {
+  color: #dc143c;
+}
+
+.about_btn {
+  text-align: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+.about_btn button {
+  padding: 8px 35px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid grey;
+}
+.about_btn button:hover {
+  background-color: #e4002b;
+  color: #fff;
+}
+.about_btn button:focus {
+  background-color: #e4002b;
+  color: #fff;
+  border: 2px solid #03a9f4;
+}
+
+.about_all {
+  width: 85%;
+  margin: auto;
+}
+
+.about_box1 {
+  height: auto;
+  width: 90%;
+}
+.about_box2 {
+  width: 90%;
+}
+
+.about_box2 li {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.box1_gif {
+  height: 100%;
   width: 100%;
-  display: flex;
-  margin-top: 4em;
-  margin-bottom: 4em;
 }
 
-.different {
-  color: var(--clr-primary);
+.experience {
+  margin-top: 30px;
+  padding: 10px;
 }
 
-.introduction_logocontainer {
-  flex-basis: 45%;
-  display: flex;
-  justify-content: center;
+.me {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.introduction_logocontainer > img {
-  width: 55%;
-  height: 85%;
-  border-radius: 10%;
-  border: 2px solid var(--clr-primary);
-}
-
-.introduction_datacontainer {
-  flex-basis: 55%;
-}
-
-.introduction_datacontainer > h4:nth-child(1) {
-  margin-top: 0;
-  line-height: 1.4em;
-}
-
-.introduction_datacontainer > h4:nth-child(2) {
-  margin-top: 1.4em;
-  line-height: 1.4em;
-}
-
-.introduction_datacontainer > h4 {
-  font-size: 1.1em;
-  margin-top: 0.5em;
-}
-
-.icons {
-  position: relative;
-  top: 5px;
-  color: var(--clr-fg-alt);
-  margin-right: 0.5em;
-}
-
-@media (max-width: 1022px) {
-  .introduction {
-    flex-direction: column;
-    margin-top: 2em;
-  }
-  .introduction_logocontainer {
-    margin-bottom: 3em;
-    flex-basis: 30%;
-  }
-  .introduction_logocontainer > img {
-    width: 60%;
-    height: 100%;
-    border-radius: 20px;  
-    border-radius: 10%;
-    border: 2px solid var(--clr-primary);
-  }
-  .introduction_datacontainer {
-    padding-left: 10%;
-    padding-right: 10%;
-    flex-basis: 70%;
-  }
+.experience_text {
+  font-size: 18px;
+  font-weight: 500;
 }

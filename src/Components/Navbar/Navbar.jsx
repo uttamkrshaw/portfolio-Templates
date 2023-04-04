@@ -1,112 +1,367 @@
+import {
+  Box,
+  Flex,
+  useColorMode,
+  Button,
+  IconButton,
+  useDisclosure,
+} from "@chakra-ui/react";
 import React from "react";
-import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
-import Brightness2Icon from '@mui/icons-material/Brightness2';
-import WbSunnyIcon from '@mui/icons-material/WbSunny';
-//import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
-import Uttam_Kumar_Shaw_Resume from "../../assets/Uttam_Kumar_Shaw_Resume.pdf";
+import UttamKumarShawResume from "../Resume/UttamKumarShawResume.pdf";
+import { FaSun, FaMoon, FaAlignJustify } from "react-icons/fa";
+import { useMediaQuery } from "react-responsive";
+import { HiMenu } from "react-icons/hi";
+
+import {
+  Drawer,
+  DrawerBody,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+} from "@chakra-ui/react";
+
+const Desktop = ({ children }) => {
+  const isDesktop = useMediaQuery({ minWidth: 992 });
+  return isDesktop ? children : null;
+};
+const Tablet = ({ children }) => {
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
+  return isTablet ? children : null;
+};
+const Mobile = ({ children }) => {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+  return isMobile ? children : null;
+};
+const Default = ({ children }) => {
+  const isNotMobile = useMediaQuery({ minWidth: 768 });
+  return isNotMobile ? children : null;
+};
 
 export const Navbar = () => {
-  const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
-  const [showNavList, setShowNavList] = React.useState(false);
+  const { colorMode, toggleColorMode } = useColorMode();
 
-  const toggleNavList = (id) => {
-    var element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView();
-    }
-    setShowNavList(!showNavList);
-  };
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const btnRef = React.useRef();
+
   return (
-    <>
-      <nav id="nav-menu" className="center nav">
-        <ul
-          style={{ display: showNavList ? "flex" : null }}
-          className="nav__list"
-        >
-          <li id="home" class="nav-link home"  className="nav__list-item">
-            <a
-              href="#home"
-              onClick={() => toggleNavList("#home")}
-              className="link link--nav"
-              class="nav-link home"
-            >
-              Home
-            </a>
-          </li>
-          <li id="about" class="nav-link about about section"  className="nav__list-item">
-            <a
-              href="#about"
-              onClick={() => toggleNavList("#about")}
-              className="link link--nav"
-              class="nav-link about"
-            >
-              About
-            </a>
-          </li>
-          <li  id="skills" class="nav-link skills"  className="nav__list-item">
-            <a
-              href="#skills"
-              onClick={() => toggleNavList("#skills")}
-              className="link link--nav"
-              class="nav-link skills"
-            >
-              Skills
-            </a>
-          </li>
-          <li id="projects" class="nav-link projects"  className="nav__list-item">
-            <a
-              href="#projects"
-              onClick={() => toggleNavList("#projects")}
-              className="link link--nav"
-              class="nav-link projects"
-            >
-              Projects
-            </a>
-          </li>
-          <li  id="contact" class="nav-link contact"  className="nav__list-item">
-            <a
-              href="#contact"
-              onClick={() => toggleNavList("#contact")}
-              className="link link--nav"
-              class="nav-link contact"
-            >
-              Contact
-            </a>
-          </li>
-          <li class="nav-link resume" className="nav__list-item">
-            <a
-            href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-              target="_blank"
-              download="Uttam_Kumar_Shaw_Resume.pdf"
-              rel="noreferrer"
-              id="resume-button-1"
-              class="nav-link resume"
-            >
-              Resume
-            </a>
-          </li>
-        </ul>
-        <button
-          type="button"
-          onClick={toggeltheme}
-          className="btn btn--icon nav__theme"
-          aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
-        >
-          {themename === "dark" ? <WbSunnyIcon /> : <Brightness2Icon />}
-        </button>
-        <button
-          type="button"
-          onClick={toggleNavList}
-          className="btn btn--icon nav__hamburger"
-          aria-label="toggle navigation"
-        >
-          {showNavList ? <CloseIcon /> : <MenuIcon />}
-        </button>
-      </nav>
-    </>
+    <div id="nav-menu">
+      {/* --------------------------Desktop--------------------------------------- */}
+      <Desktop>
+        <Box>
+          <div
+            style={{
+              backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+            }}
+            className="navbar"
+            id="NavbarId"
+          >
+            <div>
+              <div className="navbar_container">
+                <ul className="navbar_left">
+                  <div className="navbar_left_logo">
+                    <h2>
+                      <a href="#">
+                        {" "}
+                        UTTAM
+                        {/* <span>NIA</span> */}
+                      </a>
+                    </h2>
+                  </div>
+                </ul>
+
+                <ul className="navbar_right">
+                  <li>
+                    <a className="nav-link home" href="#">
+                      HOME
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link about" href="#about">
+                      {" "}
+                      ABOUT
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-link projects" href="#projects">
+                      PROJECT
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link skills" href="#skills">
+                      SKILLS
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link contact" href="#contact">
+                      CONTACT
+                    </a>
+                  </li>
+                  <li>
+                    {/* <a download href={resume}>
+                      RESUME
+                    </a> */}
+                    {/* <a href={"https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT"} download id="resume-link-1">
+                      <button
+                        id="resume-button-1"
+                        onClick={() => {
+                          window.open("https://drive.google.com/file/d/1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT/view?usp=share_link","_blank");
+                        }}
+                        // id="resume"
+                        className="nav-link resume"
+                      >
+                        RESUME
+                      </button>
+                    </a> */}
+                    <a
+                      href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+                      target="_blank"
+                       download="UttamKumarShawResume"
+                      rel="noreferrer"
+                      id="resume-button-1"
+                      class="nav-link resume"
+                    >
+                      Resume
+                    </a>
+                  </li>
+                  <li>
+                    <IconButton
+                      icon={colorMode == "light" ? <FaMoon /> : <FaSun />}
+                      isRound="true"
+                      onClick={toggleColorMode}
+                    ></IconButton>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </Box>
+      </Desktop>
+      {/* ---------------------------Tablet-------------------------------------- */}
+      <Tablet>
+        <Box>
+          <div
+            style={{
+              backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+            }}
+            className="navbar"
+            id="NavbarId"
+          >
+            <div>
+              <div className="navbar_container">
+                <ul className="navbar_left">
+                  <div className="navbar_left_logo">
+                    <h2>
+                      UTTAM
+                      {/* <span>NIA</span> */}
+                    </h2>
+                  </div>
+                </ul>
+
+                <Flex
+                  justifyContent="right"
+                  alignItems="center"
+                  className="tabletnav"
+                  gap="20px"
+                  paddingRight="20px"
+                >
+                  <div className="menubar">
+                    <Box ref={btnRef} colorScheme="teal" onClick={onOpen}>
+                      <HiMenu size="40px" />
+                    </Box>
+                    <Drawer
+                      size="xl"
+                      isOpen={isOpen}
+                      placement="right"
+                      onClose={onClose}
+                      finalFocusRef={btnRef}
+                    >
+                      <DrawerOverlay />
+                      <DrawerContent
+                        style={{
+                          backgroundColor:
+                            colorMode == "light" ? "#edf2f8" : "#1a202c",
+                        }}
+                      >
+                        <DrawerCloseButton fontSize="30px" />
+
+                        <DrawerBody textAlign="center">
+                          <ul className="Ultablet">
+                            <li onClick={onClose}>
+                              <a className="nav-link home" href="#">
+                                HOME
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a className="nav-link about" href="#about">
+                                {" "}
+                                ABOUT
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a class="nav-link projects" href="#projects">
+                                PROJECT
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a className="nav-link skills" href="#skills">
+                                SKILLS
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a className="nav-link contact" href="#contact">
+                                CONTACT
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a
+                                className="nav-link resume"
+                                id="resume-link-1"
+                                download
+                                href={UttamKumarShawResume}
+                              >
+                                resume RESUME
+                              </a>
+                            </li>
+                          </ul>
+                        </DrawerBody>
+                      </DrawerContent>
+                    </Drawer>
+                  </div>
+
+                  <div className="colormode">
+                    <IconButton
+                      icon={
+                        colorMode == "light" ? (
+                          <FaMoon size="35px" />
+                        ) : (
+                          <FaSun size="35px" />
+                        )
+                      }
+                      isRound="true"
+                      onClick={toggleColorMode}
+                    ></IconButton>
+                  </div>
+                </Flex>
+              </div>
+            </div>
+          </div>
+        </Box>
+      </Tablet>
+      {/* ----------------------------Mobile------------------------------------- */}
+      <Mobile>
+        <Box>
+          <div
+            style={{
+              backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+            }}
+            className="navbar"
+            id="NavbarId"
+          >
+            <div>
+              <div className="navbar_container">
+                <ul className="navbar_left">
+                  <div className="navbar_left_logo">
+                    <h2>
+                      UTTAM
+                      {/* <span>NIA</span> */}
+                    </h2>
+                  </div>
+                </ul>
+
+                <Flex
+                  justifyContent="right"
+                  alignItems="center"
+                  className="tabletnav"
+                  gap="20px"
+                  paddingRight="20px"
+                >
+                  <div className="menubar">
+                    <Box ref={btnRef} colorScheme="teal" onClick={onOpen}>
+                      <HiMenu size="40px" />
+                    </Box>
+                    <Drawer
+                      size="xl"
+                      isOpen={isOpen}
+                      placement="right"
+                      onClose={onClose}
+                      finalFocusRef={btnRef}
+                    >
+                      <DrawerOverlay />
+                      <DrawerContent
+                        style={{
+                          backgroundColor:
+                            colorMode == "light" ? "#edf2f8" : "#1a202c",
+                        }}
+                      >
+                        <DrawerCloseButton fontSize="30px" />
+
+                        <DrawerBody textAlign="center">
+                          <ul className="Ultablet">
+                            <li onClick={onClose}>
+                              <a className="nav-link home" href="#">
+                                HOME
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a className="nav-link about" href="#about">
+                                {" "}
+                                ABOUT
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a class="nav-link projects" href="#projects">
+                                PROJECT
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a className="nav-link skills" href="#skills">
+                                SKILLS
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a className="nav-link contact" href="#contact">
+                                CONTACT
+                              </a>
+                            </li>
+                            <li onClick={onClose}>
+                              <a
+                                id="resume-link-1"
+                                href="https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT"
+                                download="UttamKumarShawResume"
+                                target="_blank"
+
+                              >
+                                <button id="resume-button-1">Resume</button>
+                              </a>
+                            </li>
+                          </ul>
+                        </DrawerBody>
+                      </DrawerContent>
+                    </Drawer>
+                  </div>
+
+                  <div className="colormode">
+                    <IconButton
+                      icon={
+                        colorMode == "light" ? (
+                          <FaMoon size="30px" />
+                        ) : (
+                          <FaSun size="30px" />
+                        )
+                      }
+                      isRound="true"
+                      onClick={toggleColorMode}
+                    ></IconButton>
+                  </div>
+                </Flex>
+              </div>
+            </div>
+          </div>
+        </Box>
+      </Mobile>
+    </div>
   );
 };
