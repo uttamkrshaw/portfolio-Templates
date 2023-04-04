@@ -1,102 +1,69 @@
 import React from "react";
 import "./About.css";
-import { Type } from "./Type";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import DescriptionIcon from '@mui/icons-material/Description';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
-// import PublicIcon from "@material-ui/icons/Public";
-import { Introduction } from "./Introduction";
-import { Techstacks } from "./Techstacks";
-import { Github } from "./Github";
-// import Button from "@mui/material/Button";
+import { ThemeContext } from "../../Context/theme";
+import profilePic from "../../assets/profile.JPG";
+
 export const About = () => {
+  const [{ themename }] = React.useContext(ThemeContext);
   return (
     <>
-      <div className="about center">
-        <h1 id="user-detail-name" data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Uttam Kumar Shaw</span>
-        </h1>
-        <Type />
-        <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
-          An Inquisitive solution-driven Full Stack Web Developer.
-          Having 1200+ hours of hands-on experience in coding
-          and developing real-world web applications with
-          TechStack like HTML, CSS, JavaScript, React, TypeScript,
-          Redux, NodeJS, MongoDB & Mongoose. Passionate
-          about learning new technologies and methodologies.
-        </p>
-        <div className="about__contact center">
-          <a
-            href="https://github.com/uttamkrshaw"
-            aria-label="github"
-            target="_blank"
-            rel="noreferrer"
-            className="link link--icon"
-            id="contact-github"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            href="mailto:uttamkr5599@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="mail"
-            className="link link--icon"
+      <section id="about" class="about section">
+        <div className="section" data-aos="fade-right">
+          <h2 className="section__title">
+            About <span className="different">Me</span>
+          </h2>
+          <div className={"introduction " + themename}>
+            <div className="introduction_logocontainer">
+              <img class="home-img" src={profilePic} alt="Images" />
+            </div>
+            <div id="user-detail-intro" className="introduction_datacontainer">
+              <h4>
+                Hi Everyone, My name is{" "}
+                <span className="different">Uttam Kumar Shaw </span> and I am from{" "}
+                <span className="different">
+                  {" "}
+                  Dhanbad, Jharkhand (India)
+                </span>
+                . I have completed my graduation in B.A (Economics Hons)
+                from{" "}
+                <span className="different">
+                  B.S.K College, Maithon
+                </span>
+                . Then I joined full stack development course by{" "}
+                <span className="different">Masai School</span> which is a military style
+                coding school. In Masai School we get to learn both <span  className="different"> Frontend & Backend Technologies</span> like  <span className="different"> HTML,CSS, JavaScript,
+                MongoDB, NodeJS & Express.</span>
+              </h4>
+              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Gamer{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                AMV Editor{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                YouTuber{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Reader{" "}
+              </h4>
+            </div>
 
-          >
-            <EmailIcon />
-          </a>
-          <a
-            href="tel:+919091390251"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="phone"
-            className="link link--icon"
-
-          >
-            <PhoneIcon />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"
-            aria-label="linkedin"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-            id="contact-linkedin"
-          >
-            <LinkedInIcon />
-          </a>
-          {/* <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a> */}
+          </div>
         </div>
-
-        <button
-          className="btnResume"
-        // onClick={() => {
-        //   window.open(
-        //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view?usp=share_link"
-        //   );
-        // }}
-        >
-          <a href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download" target="_blank" download="Uttam_Kumar_Shaw_Resume.pdf">
-            Resume
-          </a>
-        </button>
-      </div>
-      <Introduction />
-      <section id="#skills">
-        <Techstacks />
       </section>
     </>
   );

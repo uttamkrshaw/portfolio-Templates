@@ -29,7 +29,9 @@ export const Github = () => {
         />
         <stats />
       </div>
-      <GithubStats />
+      <div>
+        <GithubStats />
+      </div>
     </>
   );
 };
