@@ -1,16 +1,10 @@
 import React from "react";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import "./Projects.css";
-import clockify from "../Images/clockify.png";
-import rymo from "../Images/rymo.webp";
-import urban from "../Images/landing.png";
-import ndtv from "../Images/ndtv.jpg";
-import zoomcar from "../Images/zoomcar.jpg";
-import portfolio from "../Images/my_portfolio.png";
-import weather_app from "../Images/weather_app.png";
-import skinstoreproject from "../Images/skinstoreproject.png";
-import shopall from "../Images/shopall.png";
-import glambgodess from "../Images/glambgodess.png";
+import music from "../Images/music.png"
+import cultfit from "../Images/cultfit.png"
+import purplle from "../Images/purplle.png"
+import zara from "../Images/zara.jpg"
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -41,7 +35,7 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={glambgodess} alt="tata1mg" />
+                  <img src={zara} alt="tata1mg" />
                 </div>
 
                 <div className="project-title">
@@ -92,7 +86,7 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={skinstoreproject} alt="" />
+                  <img src={purplle} alt="" />
                 </div>
 
                 <div className="project-title">
@@ -143,7 +137,7 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={shopall} alt="shopall" />
+                  <img src={cultfit} alt="shopall" />
                 </div>
 
                 <div className="project-title">
@@ -192,7 +186,7 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={shopall} alt="shopall" />
+                  <img src={music} alt="shopall" />
                 </div>
 
                 <div className="project-title">

@@ -1,22 +1,20 @@
-import React from "react";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
+import { useState } from "react";
 
 import "./Skills.css";
-import html from "../Images/html.png";
-import css from "../Images/css.png";
-import boostrap from "../Images/boostrap.png";
-import js from "../Images/js.jpg";
-import react from "../Images/react.svg";
+import html from "../Images/html.png"
+import css from "../Images/css.png"
+import javascript from "../Images/javascript.png"
+import react from "../Images/react.png";
 import redux from "../Images/redux.png";
-import chakra from "../Images/chakraui.png";
-import postman from "../Images/postman.png";
-import git from "../Images/git.png";
-import mongodb from "../Images/mongodb.png";
-import dsa from "../Images/dsa.png";
-import nodejs from "../Images/nodejs.png";
-import expressjs from "../Images/expressjs.webp";
-import netlify from "../Images/netlify.svg";
-import { useState } from "react";
+import chakra from "../Images/chakra.png"
+import node from "../Images/node.png";
+import express from "../Images/express.webp";
+import mongo from "../Images/mongo.png";
+import github from "../Images/github.png"
+import postman from "../Images/postman.webp"
+import typescript from "../Images/typescript.png"
+
 
 export const Skills = () => {
   const [btn, setBtn] = useState(false);
@@ -33,15 +31,8 @@ export const Skills = () => {
       name: "CSS",
       category1: "frontend",
     },
-
-    // {
-    //   url: boostrap,
-    //   name: "Boostrap",
-    //   category1: "frontend",
-    // },
-
     {
-      url: js,
+      url: javascript,
       name: "JavaScript",
       category1: "frontend",
     },
@@ -51,7 +42,11 @@ export const Skills = () => {
       name: "React",
       category1: "frontend",
     },
-
+    {
+      url: typescript,
+      name: "TypeScript",
+      category2: "frontend",
+    },
     {
       url: redux,
       name: "Redux",
@@ -64,51 +59,23 @@ export const Skills = () => {
       category1: "frontend",
     },
 
-    // {
-    //   url: nodejs,
-    //   name: "Node JS",
-    //   category2: "backend",
-    // },
-
-    // {
-    //   url: expressjs,
-    //   name: "Express",
-    //   category2: "backend",
-    // },
-
-    // {
-    //   url: mongodb,
-    //   name: "MongoDB",
-    //   category2: "backend",
-    // },
-
     {
-      url: postman,
-      name: "Postman",
-      category1: "frontend",
+      url: node,
+      name: "Node JS",
       category2: "backend",
     },
 
     {
-      url: git,
-      name: "Git",
-      category1: "frontend",
+      url: express,
+      name: "Express",
       category2: "backend",
     },
 
     {
-      url: netlify,
-      name: "Netlify",
-      category1: "frontend",
+      url: mongo,
+      name: "MongoDB",
       category2: "backend",
-    },
-
-    {
-      url: dsa,
-      name: "DSA",
-      category1: "frontend",
-      category2: "backend",
-    },
+    }
   ];
 
   const [skills, setSkills] = useState(skills_data);
@@ -153,7 +120,7 @@ export const Skills = () => {
       </div>
 
       <div className="skills_grid">
-        <SimpleGrid columns={[2, 3, 4, 7]} spacing="30px">
+        <SimpleGrid columns={[2, 3, 4, 5]} spacing="20px">
           {skills?.map((elem) => (
             <Box  className="skills-card"  key={elem.name}>
               <div

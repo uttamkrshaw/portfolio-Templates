@@ -12,16 +12,15 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+       <Home />
       <About />
-      <Projects />
+     <Projects />
       <Skills />
-      {/* <SoftSkills /> */}
-      <Github />
+      <SoftSkills />
+       <Github />
       <Stars />
-      <Contact />
+     {/* <Contact /> */}
     </div>
   );
 }
-
 export default App;

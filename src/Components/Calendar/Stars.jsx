@@ -41,8 +41,8 @@ export const Stars = () => {
               <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw" />
             </a>
           </div>
-          <div className="box2">
-            <SimpleGrid columns={[1, 1, 1, 2]}>
+          <div className="box2" >
+            <SimpleGrid columns={[1, 1, 1, 1]}>
               <Box>
                 <a href="https://github.com/uttamkrshaw">
                   <img   id="github-top-langs"

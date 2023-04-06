@@ -53,7 +53,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#0B0C10",
             }}
             className="navbar"
             id="NavbarId"
@@ -100,21 +100,6 @@ export const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    {/* <a download href={resume}>
-                      RESUME
-                    </a> */}
-                    {/* <a href={"https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT"} download id="resume-link-1">
-                      <button
-                        id="resume-button-1"
-                        onClick={() => {
-                          window.open("https://drive.google.com/file/d/1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT/view?usp=share_link","_blank");
-                        }}
-                        // id="resume"
-                        className="nav-link resume"
-                      >
-                        RESUME
-                      </button>
-                    </a> */}
                     <a
                       href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
                       target="_blank"
@@ -144,7 +129,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#0B0C10",
             }}
             className="navbar"
             id="NavbarId"
@@ -217,12 +202,18 @@ export const Navbar = () => {
                             </li>
                             <li onClick={onClose}>
                               <a
+                               href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+                               target="_blank"
+                                download="UttamKumarShawResume"
+                               rel="noreferrer"
+                               id="resume-button-1"
+                               class="nav-link resume"
                                 className="nav-link resume"
                                 id="resume-link-1"
                                 download
                                 href={UttamKumarShawResume}
                               >
-                                resume RESUME
+                               RESUME
                               </a>
                             </li>
                           </ul>
@@ -255,7 +246,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#0B0C10",
             }}
             className="navbar"
             id="NavbarId"
@@ -332,7 +323,6 @@ export const Navbar = () => {
                                 href="https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT"
                                 download="UttamKumarShawResume"
                                 target="_blank"
-
                               >
                                 <button id="resume-button-1">Resume</button>
                               </a>
