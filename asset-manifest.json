@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb38cde5.css",
-    "main.js": "/static/js/main.45ecb976.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Uttam-Kumar-Shaw-Resume.pdf": "/static/media/Uttam-Kumar-Shaw-Resume.e7dedaf4f4aa552ad682.pdf",
+    "main.css": "/static/css/main.b5843faf.css",
+    "main.js": "/static/js/main.33056c09.js",
+    "static/media/purplle.png": "/static/media/purplle.b32cab9bb5c1639c00f2.png",
+    "static/media/cultfit.png": "/static/media/cultfit.1a1de754d05d3d05a5e6.png",
+    "static/media/zara.jpg": "/static/media/zara.954a9b7cfffe20d2aed6.jpg",
+    "static/media/music.png": "/static/media/music.fccfe033668df1da6f7e.png",
+    "static/media/UttamKumarShawResume.pdf": "/static/media/UttamKumarShawResume.5391cd0820684d6dbb4d.pdf",
     "static/media/chakra.png": "/static/media/chakra.6d4684d36d618b85afe2.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/profile.jpg": "/static/media/profile.862c5c99b2d2c314d99f.jpg",
@@ -11,7 +14,6 @@
     "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
@@ -23,12 +25,11 @@
     "static/media/photoshop.webp": "/static/media/photoshop.7fa0ab5f19e90d470abe.webp",
     "static/media/premierpro.webp": "/static/media/premierpro.a0068d4694649cd85a60.webp",
     "index.html": "/index.html",
-    "main.fb38cde5.css.map": "/static/css/main.fb38cde5.css.map",
-    "main.45ecb976.js.map": "/static/js/main.45ecb976.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.b5843faf.css.map": "/static/css/main.b5843faf.css.map",
+    "main.33056c09.js.map": "/static/js/main.33056c09.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb38cde5.css",
-    "static/js/main.45ecb976.js"
+    "static/css/main.b5843faf.css",
+    "static/js/main.33056c09.js"
   ]
 }
