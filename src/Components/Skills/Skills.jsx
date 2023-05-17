@@ -73,10 +73,46 @@ export const Skills = () => {
       category2: "backend",
     },
     {
-      url: aftereffect,
-      name: "After Effect",
+      url: studio,
+      name: "VS Code",
       category2: "tools",
-    }
+    },
+    {
+      url: github,
+      name: "Github",
+      category2: "tools",
+    },
+    {
+      url: postman,
+      name: "Postman",
+      category2: "tools",
+    },
+    {
+      url: npm,
+      name: "Node Modules",
+      category2: "tools",
+    },
+    {
+      url: aftereffect,
+      name: "After Effects",
+      category2: "tools",
+    },
+    {
+      url: premierpro,
+      name: "Premier Pro",
+      category2: "tools",
+    },
+    {
+      url: photoshop,
+      name: "Photoshop",
+      category2: "tools",
+    },
+    {
+      url: slack,
+      name: "Slack",
+      category2: "tools",
+    },
+    
   ];
 
   const [skills, setSkills] = useState(skills_data);

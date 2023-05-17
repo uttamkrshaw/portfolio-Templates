@@ -28,58 +28,6 @@ export const Projects = () => {
           <SimpleGrid columns={[1, 1, 2, 2]} spacing="40px" className="project_grid">
             <Box >
               <div
-                // className="project_box"
-                className="project-card"
-                style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
-                }}
-              >
-                <div className="project_image">
-                  <img src={zara} alt="tata1mg" />
-                </div>
-
-                <div className="project-title">
-                  <h2 >Zara Clone</h2>
-                </div>
-                <div className="project-description" >
-                  <p >
-                    Zara is a popular global fashion brand that offers a wide range of clothing, footwear, and accessories for men, women, and children. The website, Zara.com, serves as an online store that allows customers to browse and shop the latest fashion trends from the comfort of their own homes.
-                  </p>
-                </div>
-                <div >
-                  <h5>
-                    <span className="project-tech-stack">Tech Stack :</span>{" "}
-                    HTML,CSS,JavaScript
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link">
-                    <a
-                      className="project-github-link"
-                      href="https://github.com/uttamkrshaw/sore-sugar-4125"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link">
-                    <a
-                      className="project-deployed-link"
-                      href="https://helpful-buttercream-b62142.netlify.app/index.html"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-
-            <Box >
-              <div
-                // className="project_box"
                 className="project-card"
                 style={{
                   backgroundColor: colorMode == "light" ? "white" : "#1a202c",
@@ -94,7 +42,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-description">
                   <p>
-                  Purplle is an online beauty and personal care store that offers a wide range of products from well-known brands, including skincare, haircare, makeup, and fragrance. The website aims to provide a hassle-free shopping experience with a user-friendly interface and features such as detailed product descriptions, reviews, and ratings.
+                    Purplle is an online beauty and personal care store that offers a wide range of products from well-known brands, including skincare, haircare, makeup, and fragrance. The website aims to provide a hassle-free shopping experience with a user-friendly interface and features such as detailed product descriptions, reviews, and ratings.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -137,6 +85,58 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
+                  <img src={zara} alt="tata1mg" />
+                </div>
+
+                <div className="project-title">
+                  <h2 >Zara Clone</h2>
+                </div>
+                <div className="project-description" >
+                  <p >
+                    Zara is a popular global fashion brand that offers a wide range of clothing, footwear, and accessories for men, women, and children. The website, Zara.com, serves as an online store that allows customers to browse and shop the latest fashion trends from the comfort of their own homes.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span  >Tech Stack :</span> HTML, CSS, JavaScript,
+                    API
+
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      className="project-github-link"
+                      href="https://github.com/uttamkrshaw/sore-sugar-4125"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      className="project-deployed-link"
+                      href="https://helpful-buttercream-b62142.netlify.app/index.html"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box >
+              <div
+                // className="project_box"
+                className="project-card"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
                   <img src={cultfit} alt="shopall" />
                 </div>
 
@@ -145,7 +145,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-description">
                   <p>
-                  Cult.fit is a comprehensive health and fitness platform that offers a range of fitness and wellness services, including online workouts, personal training, nutrition guidance, and mental wellness support. The website aims to provide a convenient and accessible way for people to achieve their fitness goals, regardless of their location or experience level.
+                    Cult.fit is a comprehensive health and fitness platform that offers a range of fitness and wellness services, including online workouts, personal training, nutrition guidance, and mental wellness support. The website aims to provide a convenient and accessible way for people to achieve their fitness goals, regardless of their location or experience level.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -194,7 +194,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-description">
                   <p>
-                  It is a web-based music player that allows users to play their favorite music directly from their web browser. The player has a clean and minimalist interface, making it easy to use for both beginners and advanced users. The website provides a default playlist of popular tracks that users can enjoy.
+                    It is a web-based music player that allows users to play their favorite music directly from their web browser. The player has a clean and minimalist interface, making it easy to use for both beginners and advanced users. The website provides a default playlist of popular tracks that users can enjoy.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -225,6 +225,7 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
+
           </SimpleGrid>
         </div>
       </div>
