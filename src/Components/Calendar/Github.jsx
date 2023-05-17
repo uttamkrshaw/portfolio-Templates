@@ -1,7 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import "./Github.css";
-import { Stars } from "./Stars";
 
 function Github() {
   return (
@@ -12,7 +11,10 @@ function Github() {
         </h2>
       </div>
       <div className="cal">
-        <GitHubCalendar username="uttamkrshaw" />
+        <GitHubCalendar
+        fontSize={18}
+        blockSize={20}
+        username="uttamkrshaw" />
       </div>
     </div>
   );

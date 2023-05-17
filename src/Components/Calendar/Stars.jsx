@@ -26,7 +26,7 @@ export const Stars = () => {
     <div
       className="stars_container"
       style={{
-        backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+        backgroundColor: colorMode === "light" ? "#edf2f8" : "#1a202c",
       }}
     >
       <div className="main_box">
@@ -36,26 +36,22 @@ export const Stars = () => {
               Github <span>Statistics</span>
             </h2>
           </div>
-          <div className="box1">
-            <a href="https://github.com/uttamkrshaw">
-              <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw" />
-            </a>
-          </div>
           <div className="box2" >
-            <SimpleGrid columns={[1, 1, 1, 1]}>
+            <SimpleGrid columns={[1, 1, 2, 3]}>
               <Box>
                 <a href="https://github.com/uttamkrshaw">
-                  <img   id="github-top-langs"
-                    align="center"
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=uttamkrshaw"
+                  <img alt="github-streak-stats" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw" />
+                </a>
+              </Box>
+              <Box>
+                <a href="https://github.com/uttamkrshaw">
+                  <img alt="github-top-langs" id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=uttamkrshaw"
                   />
                 </a>
               </Box>
               <Box>
                 <a href="https://github.com/uttamkrshaw">
-                  <img id="github-stats-card"
-                    align="left"
-                    src="https://github-readme-stats.vercel.app/api?username=uttamkrshaw&count_private=true&show_icons=true"
+                  <img alt="github-stats-card" id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=uttamkrshaw&count_private=true&show_icons=true"
                   />
                 </a>
               </Box>
@@ -69,24 +65,25 @@ export const Stars = () => {
               Github <span>Statistics</span>
             </h2>
           </div>
-          <div className="box1">
-            <a id="github-streak-stats" href="https://github.com/uttamkrshaw">
-              <img src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw&theme=github-light&border_radius=5" />
-            </a>
-          </div>
           <div className="box2">
-            <SimpleGrid columns={[1, 1, 1, 2]}>
+            <SimpleGrid columns={[1, 1, 2, 3]}>
               <Box>
                 <a href="https://github.com/uttamkrshaw">
                   <img id="github-top-langs"
-                    align="center"
+                    alt="github-top-langs"
                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=uttamkrshaw"
                   />
                 </a>
               </Box>
               <Box>
+                <a id="github-streak-stats" href="https://github.com/uttamkrshaw">
+                  <img alt="github-streak-stats" align="center" src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw&theme=github-light&border_radius=5" />
+                </a>
+              </Box>
+              <Box>
                 <a href="https://github.com/uttamkrshaw">
                   <img id="github-stats-card"
+                    alt="github-stats-card"
                     align="left"
                     src="https://github-readme-stats.vercel.app/api?username=uttamkrshaw&count_private=true&show_icons=true"
                   />
@@ -103,24 +100,28 @@ export const Stars = () => {
             </h2>
           </div>
           <div className="box1">
-            <a href="https://github.com/uttamkrshaw">
-              <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw&theme=github-light&border_radius=5" />
-            </a>
+
           </div>
           <div className="box2">
-            <SimpleGrid columns={[1, 1, 1, 2]}>
+            <SimpleGrid columns={[1, 1, 2, 3]}>
+              <Box>
+                <a href="https://github.com/uttamkrshaw">
+                  <img id="github-streak-stats" alt="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=uttamkrshaw&theme=github-light&border_radius=5" />
+                </a>
+              </Box>
               <Box>
                 <a href="https://github.com/uttamkrshaw">
                   <img id="github-top-langs"
+                    alt="github-top-langs"
                     align="center"
                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=uttamkrshaw"
                   />
                 </a>
               </Box>
-              <br />
               <Box>
                 <a href="https://github.com/uttamkrshaw">
                   <img id="github-stats-card"
+                    alt="github-stats-card"
                     align="left"
                     src="https://github-readme-stats.vercel.app/api?username=uttamkrshaw&count_private=true&show_icons=true"
                   />

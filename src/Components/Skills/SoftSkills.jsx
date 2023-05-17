@@ -16,7 +16,7 @@ export const SoftSkills = () => {
     <div
       className="main_container"
       style={{
-        backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+        backgroundColor: colorMode === "light" ? "#edf2f8" : "#1a202c",
       }}
     >
       <div className="softskills_container">

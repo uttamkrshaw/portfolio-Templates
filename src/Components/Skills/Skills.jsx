@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
-
 import "./Skills.css";
 import html from "../Images/frontend/html.png";
 import css from "../Images/frontend/css.png";
@@ -124,7 +123,7 @@ export const Skills = () => {
 
   const handleFrontend = () => {
     let data = skills_data.filter((elem, index) => {
-      return elem.category1 == "frontend";
+      return elem.category1 === "frontend";
     });
     setSkills(data);
     setBtn(false);
@@ -132,14 +131,14 @@ export const Skills = () => {
 
   const handleBackend = () => {
     let data = skills_data.filter((elem, index) => {
-      return elem.category2 == "backend";
+      return elem.category2 === "backend";
     });
     setSkills(data);
     setBtn(false);
   };
   const handleTool = () => {
     let data = skills_data.filter((elem, index) => {
-      return elem.category2 == "tools";
+      return elem.category2 === "tools";
     });
     setSkills(data);
     setBtn(false);
@@ -168,7 +167,7 @@ export const Skills = () => {
             <Box className="skills-card" key={elem.name}>
               <div
                 className={
-                  colorMode == "light"
+                  colorMode === "light"
                     ? "skills_grid_box"
                     : "skills_grid_box_dark"
                 }

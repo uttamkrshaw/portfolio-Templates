@@ -14,7 +14,7 @@ export const Projects = () => {
       id="projects"
       className="project_main_container"
       style={{
-        backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+        backgroundColor: colorMode === "light" ? "#edf2f8" : "#1a202c",
       }}
     >
       <div className="project_container">
@@ -30,7 +30,7 @@ export const Projects = () => {
               <div
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
                 }}
               >
                 <div className="project_image">
@@ -57,8 +57,7 @@ export const Projects = () => {
                     <a
                       className="project-github-link"
                       href="https://github.com/uttamkrshaw/dirty-parcel-1754"
-                      rel="noopener norefferer"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       <FaGithub />
                     </a>
@@ -66,7 +65,7 @@ export const Projects = () => {
                   <div class="project-deployed-link">
                     <a
                       href="https://bright-biscuit-2a261c.netlify.app/"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaEye />
@@ -81,7 +80,7 @@ export const Projects = () => {
                 // className="project_box"
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
                 }}
               >
                 <div className="project_image">
@@ -108,7 +107,7 @@ export const Projects = () => {
                     <a
                       className="project-github-link"
                       href="https://github.com/uttamkrshaw/sore-sugar-4125"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaGithub />
@@ -118,7 +117,7 @@ export const Projects = () => {
                     <a
                       className="project-deployed-link"
                       href="https://helpful-buttercream-b62142.netlify.app/index.html"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaEye />
@@ -133,7 +132,7 @@ export const Projects = () => {
                 // className="project_box"
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
                 }}
               >
                 <div className="project_image">
@@ -158,7 +157,7 @@ export const Projects = () => {
                   <div className="project-github-link">
                     <a
                       href="https://github.com/uttamkrshaw/racial-rule-4263"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaGithub />
@@ -167,7 +166,7 @@ export const Projects = () => {
                   <div className="project-deployed-link">
                     <a
                       href="https://dynamic-chaja-e201fa.netlify.app/"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaEye />
@@ -182,7 +181,7 @@ export const Projects = () => {
                 // className="project_box"
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
                 }}
               >
                 <div className="project_image">
@@ -207,7 +206,7 @@ export const Projects = () => {
                   <div className="project-github-link">
                     <a
                       href="https://github.com/uttamkrshaw/MUSIC-PLAYER-V2-"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaGithub />
@@ -216,7 +215,7 @@ export const Projects = () => {
                   <div className="project-deployed-link">
                     <a
                       href="https://uttamkrshaw.github.io/MUSIC-PLAYER-V2-/"
-                      rel="noopener norefferer"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <FaEye />
