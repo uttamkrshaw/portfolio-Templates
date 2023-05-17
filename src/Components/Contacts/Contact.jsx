@@ -41,18 +41,17 @@ export const Contact = () => {
     >
       <div className="contact_content" >
         <div className="contact_heading">
-          <h2 style={{marginLeft:"-45%"}}>
-            Do Not <span>Miss Me</span> Just <span>Chat</span> With Me
+          <h2>
+           <span>CONTACT ME </span> LETS GET IN TOUCH
           </h2>
         </div>
 
         <div className="bothbox">
           <SimpleGrid columns={[1, 1, 1, 2]} spacing="50px">
-
             <Box>
               <div className="input_box">
                 <div className="contact_icon">
-                  <SimpleGrid columns={[1, 2, 2, 2]} spacing="20px">
+                  <SimpleGrid columns={[2]} >
                     <Box className="icon_box">
                       <a id="contact-linkedin"
                         href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"

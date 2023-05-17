@@ -614,48 +614,7 @@ export const About = () => {
                           100+ Hours Soft Skill Development
                         </Text>
                       </HStack>
-                      {/* <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-4.svg"
-                          alt="icon"
-                        />
-                        <Text className="experience_text">
-                          100+ Hours Math & Logic
-                        </Text>
-                      </HStack> */}
-                      {/* <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-5.svg"
-                          alt="icon"
-                        />
-                        <Text className="experience_text">
-                          80+ Mini Projects
-                        </Text>
-                      </HStack> */}
-                      {/* <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-6.svg"
-                          alt="icon"
-                        />
-                        <Text className="experience_text">
-                          10+ Major Projects
-                        </Text>
-                      </HStack> */}
                       <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          rounded="10px"
-                          src="https://git-scm.com/images/logos/logomark-orange@2x.png"
-                          alt="git-commit"
-                        />
-                        <Text className="experience_text">
-                          1000+ Git Commits
-                        </Text>
-                      </HStack>
-                      {/* <HStack spacing={5}>
                         <Img
                           boxSize="40px"
                           rounded="10px"
@@ -663,9 +622,9 @@ export const About = () => {
                           alt="git-commit"
                         />
                         <Text className="experience_text">
-                          70+ Contributions in the last year
+                          1000+ Git Commits
                         </Text>
-                      </HStack> */}
+                      </HStack>
                     </SimpleGrid>
                   </HStack>
                 </div>
