@@ -108,7 +108,7 @@ export const Navbar = () => {
                       id="resume-button-1"
                       class="nav-link resume"
                     >
-                      Resume
+                      RESUME
                     </a>
                   </li>
                   <li>
