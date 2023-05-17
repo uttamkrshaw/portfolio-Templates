@@ -1,15 +1,14 @@
 import React from "react";
 import "./SoftSkills.css";
 import { SimpleGrid, Box, useColorMode } from "@chakra-ui/react";
-import aftereffect from "../Images/aftereffect.webp"
-import github from "../Images/github.png"
-import npm from "../Images/npm.png"
-import photoshop from "../Images/photoshop.webp"
-import postman from "../Images/postman.webp"
-import premierpro from "../Images/premierpro.webp"
-import slack from "../Images/slack.webp"
-import studio from "../Images/studio.webp"
-
+import collaborative from "../Images/skills/collabrative.png";
+import creative_thinking from "../Images/skills/creativity1.png";
+import problem_solving from "../Images/skills/problemSolv.png";
+import time_management from "../Images/skills/timeManage.png";
+import frontend from "../Images/skills/frontend-icon-22.jpg";
+import backend from "../Images/skills/backend.png";
+import dsa from "../Images/skills/dsa.png";
+import Project_Management from "../Images/skills/projectManagement.png";
 
 export const SoftSkills = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -23,66 +22,79 @@ export const SoftSkills = () => {
       <div className="softskills_container">
         <div className="softskills_header">
           <h2>
-             <span>Tools</span>
+             <span>Skills</span>
           </h2>
         </div>
         {/* --------------------------SoftSkills------------------------------------------- */}
         <div className="softskills">
-          {/* <div className="softskills_text">
-            <h2>Tools</h2>
-          </div> */}
+          <div className="softskills_text">
+            <h2>Soft Skills</h2>
+          </div>
 
           <SimpleGrid columns={[1, 2, 2, 4]} spacing="60px">
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={aftereffect} alt="aftereffect" />
+                <img src={collaborative} alt="dsa" />
               </div>
-              <p>After Effect</p>
+              <p>Collaborative</p>
             </Box>
 
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={premierpro} alt="premierpro" />
+                <img src={creative_thinking} alt="dsa" />
               </div>
-              <p>Premier Pro</p>
+              <p>Creative Thinking</p>
             </Box>
 
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={photoshop} alt="photoshop" />
+                <img src={problem_solving} alt="dsa" />
               </div>
-              <p>Photoshop</p>
+              <p>Problem Solving</p>
             </Box>
 
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={npm} alt="npm" />
+                <img src={time_management} alt="dsa" />
               </div>
-              <p>Node Package Manager</p>
+              <p>Time Tanagement</p>
             </Box>
+          </SimpleGrid>
+        </div>
+
+        {/* --------------------------Tech Skills------------------------------------------- */}
+        <div className="softskills">
+          <div className="softskills_text">
+            <h2>Tech Skills</h2>
+          </div>
+
+          <SimpleGrid columns={[1, 2, 2, 4]} spacing="60px">
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={github} alt="github" />
+                <img src={frontend} alt="dsa" />
               </div>
-              <p>Github</p>
+              <p>Frontend</p>
             </Box>
+
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={postman} alt="postman" />
+                <img src={backend} alt="dsa" />
               </div>
-              <p>Postman</p>
+              <p>Backend</p>
             </Box>
+
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={studio} alt="studio" />
+                <img src={dsa} alt="dsa" />
               </div>
-              <p>Visual Studio Code</p>
+              <p>DSA</p>
             </Box>
+
             <Box className="softskills_box">
               <div className="skills_img">
-                <img src={slack} alt="slack" />
+                <img src={Project_Management} alt="dsa" />
               </div>
-              <p>Slack</p>
+              <p>Project Management</p>
             </Box>
           </SimpleGrid>
         </div>

@@ -1,20 +1,27 @@
+import React from "react";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
-import { useState } from "react";
 
 import "./Skills.css";
-import html from "../Images/html.png"
-import css from "../Images/css.png"
-import javascript from "../Images/javascript.png"
-import react from "../Images/react.png";
-import redux from "../Images/redux.png";
-import chakra from "../Images/chakra.png"
-import node from "../Images/node.png";
-import express from "../Images/express.webp";
-import mongo from "../Images/mongo.png";
-import github from "../Images/github.png"
-import postman from "../Images/postman.webp"
-import typescript from "../Images/typescript.png"
+import html from "../Images/frontend/html.png";
+import css from "../Images/frontend/css.png";
+import js from "../Images/frontend/js.jpg";
+import react from "../Images/frontend/react.png";
+import redux from "../Images/frontend/redux.png";
+import chakra from "../Images/frontend/chakra.png";
+import github from "../Images/tools/github.png";
+import mongodb from "../Images/backend/mongodb.png";
+import node from "../Images/backend/node.png";
+import expressjs from "../Images/backend/expressjs.webp";
+import aftereffect from "../Images/tools/aftereffect.webp"
+import npm from "../Images/tools/npm.png"
+import photoshop from "../Images/tools/photoshop.webp"
+import postman from "../Images/tools/postman.png"
+import premierpro from "../Images/tools/premierpro.webp"
+import slack from "../Images/tools/slack.webp"
+import studio from "../Images/tools/studio.webp"
 
+
+import { useState } from "react";
 
 export const Skills = () => {
   const [btn, setBtn] = useState(false);
@@ -25,56 +32,50 @@ export const Skills = () => {
       name: "HTML",
       category1: "frontend",
     },
-
     {
       url: css,
       name: "CSS",
       category1: "frontend",
     },
     {
-      url: javascript,
+      url: js,
       name: "JavaScript",
       category1: "frontend",
     },
-
     {
       url: react,
       name: "React",
       category1: "frontend",
     },
     {
-      url: typescript,
-      name: "TypeScript",
-      category2: "frontend",
-    },
-    {
       url: redux,
       name: "Redux",
       category1: "frontend",
     },
-
     {
       url: chakra,
       name: "Chakra UI",
       category1: "frontend",
     },
-
     {
       url: node,
       name: "Node JS",
       category2: "backend",
     },
-
     {
-      url: express,
+      url: expressjs,
       name: "Express",
       category2: "backend",
     },
-
     {
-      url: mongo,
+      url: mongodb,
       name: "MongoDB",
       category2: "backend",
+    },
+    {
+      url: aftereffect,
+      name: "After Effect",
+      category2: "tools",
     }
   ];
 
@@ -89,7 +90,6 @@ export const Skills = () => {
     let data = skills_data.filter((elem, index) => {
       return elem.category1 == "frontend";
     });
-
     setSkills(data);
     setBtn(false);
   };
@@ -98,12 +98,17 @@ export const Skills = () => {
     let data = skills_data.filter((elem, index) => {
       return elem.category2 == "backend";
     });
-
     setSkills(data);
     setBtn(false);
   };
-
-  // console.log(skills);
+  const handleTool = () => {
+    let data = skills_data.filter((elem, index) => {
+      return elem.category2 == "tools";
+    });
+    setSkills(data);
+    setBtn(false);
+  };
+ 
 
   return (
     <div className="skills_container" id="skills">
@@ -117,12 +122,14 @@ export const Skills = () => {
         <button onClick={handleAll}>All</button>
         <button onClick={handleFrontend}>Frontend</button>
         <button onClick={handleBackend}>Backend</button>
+        <button onClick={handleTool}>Tools</button>
+
       </div>
 
       <div className="skills_grid">
-        <SimpleGrid columns={[2, 3, 4, 5]} spacing="20px">
+        <SimpleGrid columns={[2, 3, 4, 7]} spacing="30px">
           {skills?.map((elem) => (
-            <Box  className="skills-card"  key={elem.name}>
+            <Box className="skills-card" key={elem.name}>
               <div
                 className={
                   colorMode == "light"

@@ -13,7 +13,7 @@ body {
 .skills_container {
   width: 85%;
   margin: auto;
-  /* padding: 60px 0; */
+  padding: 60px 0;
 }
 
 .skills_heading {
@@ -41,7 +41,7 @@ body {
 }
 
 .skills_grid_box_dark {
-  height: 200px;
+  height: 170px;
   background-color: #0f1624;
   border-radius: 10px;
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import "./Projects.css";
-import music from "../Images/music.png"
-import cultfit from "../Images/cultfit.png"
-import purplle from "../Images/purplle.png"
-import zara from "../Images/zara.jpg"
+import music from "../Images/projects/music.png"
+import cultfit from "../Images/projects/cultfit.png"
+import purplle from "../Images/projects/purplle.png"
+import zara from "../Images/projects/zara.jpg"
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
