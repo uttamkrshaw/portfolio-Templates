@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b5843faf.css",
-    "main.js": "/static/js/main.33056c09.js",
+    "main.js": "/static/js/main.44d489d0.js",
     "static/media/purplle.png": "/static/media/purplle.b32cab9bb5c1639c00f2.png",
     "static/media/cultfit.png": "/static/media/cultfit.1a1de754d05d3d05a5e6.png",
     "static/media/zara.jpg": "/static/media/zara.954a9b7cfffe20d2aed6.jpg",
@@ -26,10 +26,10 @@
     "static/media/premierpro.webp": "/static/media/premierpro.a0068d4694649cd85a60.webp",
     "index.html": "/index.html",
     "main.b5843faf.css.map": "/static/css/main.b5843faf.css.map",
-    "main.33056c09.js.map": "/static/js/main.33056c09.js.map"
+    "main.44d489d0.js.map": "/static/js/main.44d489d0.js.map"
   },
   "entrypoints": [
     "static/css/main.b5843faf.css",
-    "static/js/main.33056c09.js"
+    "static/js/main.44d489d0.js"
   ]
 }
