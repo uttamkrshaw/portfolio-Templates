@@ -15,20 +15,22 @@ body {
   margin: auto;
   padding: 70px 0;
 }
-.contact_content {
-  width: 85%;
-  margin-left: 30%;
 
+.contact_content {
+  width: 50%;
+  margin: auto;
 }
 
 .contact_heading {
   margin-bottom: 70px;
   text-align: center;
 }
+
 .contact_heading h2 {
   font-size: 35px;
   font-weight: 700;
 }
+
 .contact_heading span {
   color: #e4002b;
 }
@@ -38,26 +40,16 @@ body {
   margin: auto;
 }
 
-@media only screen and (max-width: 350px) {
-  .input_box {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .input_box {
-    width: 70%;
-  }
-}
-
 .contact_icon {
   padding: 30px 0;
   display: flex;
+  margin: auto;
   justify-content: space-around;
   align-items: center;
 }
+
 .icon {
-  gap: 8px;
+  gap: 20px;
   font-size: 16px;
   font-weight: 500;
   padding: 7px 17px;
@@ -82,6 +74,7 @@ body {
 #icon1 {
   background-color: #0984c2;
 }
+
 #icon2 {
   background-color: rgb(39, 36, 36);
 }
@@ -89,11 +82,16 @@ body {
 #icon3 {
   background-color: rgb(226, 13, 13);
 }
+
 #icon4 {
   background-color: blue;
 }
+
+
 .contact_information {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 .input_tag {
   height: 45px;
@@ -139,4 +137,16 @@ body {
 .contact_last p {
   font-weight: 400;
   font-size: 17px;
+} 
+/* 
+@media only screen and (max-width: 350px) {
+  .input_box {
+    width: 100%;
+  }
 }
+
+@media only screen and (max-width: 900px) {
+  .input_box {
+    width: 70%;
+  }
+}  */

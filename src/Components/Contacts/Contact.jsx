@@ -2,7 +2,7 @@ import "./Contact.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
+import { Box, Grid, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -47,11 +47,11 @@ export const Contact = () => {
         </div>
 
         <div className="bothbox">
-          <SimpleGrid columns={[1, 1, 1, 2]} spacing="50px">
+          {/* <SimpleGrid columns={{sm:1, md:2 , lg:2}} spacing="40px"> */}
             <Box>
               <div className="input_box">
                 <div className="contact_icon">
-                  <SimpleGrid columns={[2]} >
+                  <Grid templateColumns='repeat(2, 1fr)' gap={5} >
                     <Box className="icon_box">
                       <a id="contact-linkedin"
                         href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"
@@ -102,10 +102,9 @@ export const Contact = () => {
                         </div>
                       </a>
                     </Box>
-                  </SimpleGrid>
+                  </Grid>
                 </div>
-
-                <div className="contact_information">
+                 <div className="contact_information">
                   <form ref={form} onSubmit={sendEmail}>
                     <div>
                       <input
@@ -149,10 +148,10 @@ export const Contact = () => {
                       </button>
                     </div>
                   </form>
-                </div>
+                </div> 
               </div>
             </Box>
-          </SimpleGrid>
+          {/* </SimpleGrid> */}
         </div>
       </div>
 
