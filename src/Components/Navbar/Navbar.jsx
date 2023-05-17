@@ -42,7 +42,6 @@ const Default = ({ children }) => {
 
 export const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
-
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
@@ -53,7 +52,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#0B0C10",
+              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#25274D",
             }}
             className="navbar"
             id="NavbarId"
@@ -103,7 +102,7 @@ export const Navbar = () => {
                     <a
                       href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
                       target="_blank"
-                       download="UttamKumarShawResume"
+                      download="UttamKumarShawResume"
                       rel="noreferrer"
                       id="resume-button-1"
                       class="nav-link resume"
@@ -111,13 +110,13 @@ export const Navbar = () => {
                       RESUME
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <IconButton
                       icon={colorMode == "light" ? <FaMoon /> : <FaSun />}
                       isRound="true"
                       onClick={toggleColorMode}
                     ></IconButton>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -202,18 +201,18 @@ export const Navbar = () => {
                             </li>
                             <li onClick={onClose}>
                               <a
-                               href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
-                               target="_blank"
+                                href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
+                                target="_blank"
                                 download="UttamKumarShawResume"
-                               rel="noreferrer"
-                               id="resume-button-1"
-                               class="nav-link resume"
+                                rel="noreferrer"
+                                id="resume-button-1"
+                                class="nav-link resume"
                                 className="nav-link resume"
                                 id="resume-link-1"
                                 download
                                 href={UttamKumarShawResume}
                               >
-                               RESUME
+                                RESUME
                               </a>
                             </li>
                           </ul>
@@ -222,7 +221,7 @@ export const Navbar = () => {
                     </Drawer>
                   </div>
 
-                  <div className="colormode">
+                  {/* <div className="colormode">
                     <IconButton
                       icon={
                         colorMode == "light" ? (
@@ -234,7 +233,7 @@ export const Navbar = () => {
                       isRound="true"
                       onClick={toggleColorMode}
                     ></IconButton>
-                  </div>
+                  </div> */}
                 </Flex>
               </div>
             </div>
@@ -320,7 +319,7 @@ export const Navbar = () => {
                             <li onClick={onClose}>
                               <a
                                 id="resume-link-1"
-                                href="https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT"
+                                href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
                                 download="UttamKumarShawResume"
                                 target="_blank"
                               >
@@ -333,7 +332,7 @@ export const Navbar = () => {
                     </Drawer>
                   </div>
 
-                  <div className="colormode">
+                  {/* <div className="colormode">
                     <IconButton
                       icon={
                         colorMode == "light" ? (
@@ -345,7 +344,7 @@ export const Navbar = () => {
                       isRound="true"
                       onClick={toggleColorMode}
                     ></IconButton>
-                  </div>
+                  </div> */}
                 </Flex>
               </div>
             </div>

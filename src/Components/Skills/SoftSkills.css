@@ -20,7 +20,7 @@ body {
   font-weight: 700;
 }
 .softskills_header span {
-  color: #e4002b;
+  color: #29648A;
 }
 
 .main_container {
@@ -55,7 +55,7 @@ body {
 }
 
 .softskills_box:hover {
-  background-color: #350d36;
+  background-color: #464866;
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.5s ease-in;

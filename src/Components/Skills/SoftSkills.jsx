@@ -16,13 +16,13 @@ export const SoftSkills = () => {
     <div
       className="main_container"
       style={{
-        backgroundColor: colorMode === "light" ? "#edf2f8" : "#1a202c",
+        backgroundColor: colorMode === "light" ? "#edf2f8" : "#25274D",
       }}
     >
       <div className="softskills_container">
         <div className="softskills_header">
           <h2>
-             <span>Skills</span>
+            <span>Skills</span>
           </h2>
         </div>
         {/* --------------------------SoftSkills------------------------------------------- */}

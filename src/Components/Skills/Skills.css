@@ -25,13 +25,12 @@ body {
   font-weight: 700;
 }
 .skills_heading span {
-  color: #e4002b;
+  color: #29648A;
 }
 
 .skills_grid_box {
   height: 170px;
   background-color: #edf2f7;
-
   border-radius: 10px;
 }
 .skills_grid_box:hover {
@@ -42,7 +41,7 @@ body {
 
 .skills_grid_box_dark {
   height: 170px;
-  background-color: #0f1624;
+  background-color: #2E9CCA;
   border-radius: 10px;
 }
 .skills_grid_box_dark:hover {
@@ -89,11 +88,11 @@ body {
 }
 
 .skills_btn button:hover {
-  background-color: #e4002b;
+  background-color: #29648A;
   color: #fff;
 }
 .skills_btn button:focus {
-  background-color: #e4002b;
+  background-color: #2E9CCA;
   color: #fff;
   border: 2px solid #03a9f4;
 }

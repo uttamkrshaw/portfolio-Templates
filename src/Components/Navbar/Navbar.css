@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #AAABB8;
+
 }
 
 body {
@@ -17,7 +19,7 @@ html {
   border-radius: 7px !important;
   margin: 0%;
   padding: 0%;
-  border: 6px solid rgb(240, 19, 11);
+  /* border: 6px solid rgb(240, 19, 11); */
   border-bottom: none !important;
   height: 70px;
   width: 100%;
@@ -45,7 +47,7 @@ html {
   font-size: 33px;
 }
 .navbar_left_logo span {
-  color: #e4002b;
+  color: #2E9CCA;
 }
 
 .navbar_right {
@@ -63,7 +65,7 @@ button {
 }
 
 .navbar_right a:hover {
-  background-color: #e4002b;
+  background-color: #29648A;
   color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
@@ -87,5 +89,5 @@ button {
   cursor: pointer;
   height: 80px;
   width: 100%;
-  background-color: #96bae9;
+  background-color: #29648A;
 }

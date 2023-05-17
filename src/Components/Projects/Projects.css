@@ -32,8 +32,9 @@ html {
   font-size: 35px;
   font-weight: 700;
 }
+
 .project_heading span {
-  color: #e4002b;
+  color: #29648A;
 }
 
 .project-card {
@@ -46,7 +47,7 @@ html {
 }
 
 .project-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 10px;
   cursor: pointer;
 }
 
@@ -56,6 +57,7 @@ html {
   width: 95%;
   transition: transform 0.6s linear;
 }
+
 .project_image img:hover {
   transform: scale(1.1);
   transition: 0.5s ease-in;
@@ -79,7 +81,7 @@ html {
 
 .project_tech_stack span {
   font-size: 15px;
-  color: #e4002b;
+  color: #29648A;
   font-weight: 500;
 }
 
@@ -99,15 +101,17 @@ html {
   cursor: pointer;
   transition: 0.1s ease;
 }
+
 .project_icon div:hover {
   border-radius: 50%;
-  background-color: #e4002b;
+  background-color: #29648A;
   color: #fff;
 }
 
 .project_icon a {
   font-size: 30px;
 }
+
 /* .project-description p {
   font-size: 15px;
   font-weight: 5000;

@@ -38,7 +38,7 @@ export const Home = () => {
       <Desktop>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+            backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
           }}
           className="home_Container"
           id="home"
@@ -65,19 +65,19 @@ export const Home = () => {
                     </span>
                   </div>
                   <button
-                    id="resume-button-2"
-                    onClick={() => {
-                      window.open(
-                        "https://drive.google.com/file/d/1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT/view?usp=share_link",
-                        "_blank"
-                      );
-                    }}
-                    className="nav-link resume"
+                    // id="resume-button-2"
+                    // onClick={() => {
+                    //   window.open(
+                    //     "https://drive.google.com/file/d/1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT/view?usp=share_link",
+                    //     "_blank"
+                    //   );
+                    // }}
+                    // className="nav-link resume"
                   >
                     {/* 
                         "https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT" */}
                     <a
-                      href={UttamKumarShawResume}
+                      href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
                       target="_blank"
                       rel="norefferer"
                       download={UttamKumarShawResume}
@@ -151,7 +151,7 @@ export const Home = () => {
       <Tablet>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+            backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
           }}
           className="home_Container_tablet"
           id="home"
@@ -190,19 +190,19 @@ export const Home = () => {
                   </div>
 
                   <button
-                    id="resume-button-2"
-                    onClick={() => {
-                      window.open(
-                        "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
-                        "_blank"
-                      );
-                    }}
-                    className="nav-link resume"
+                    // id="resume-button-2"
+                    // onClick={() => {
+                    //   window.open(
+                    //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
+                    //     "_blank"
+                    //   );
+                    // }}
+                    // className="nav-link resume"
                   >
                     {/* 
                         "https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT" */}
                     <a
-                      href={UttamKumarShawResume}
+                      href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
                       target="_blank"
                       rel="norefferer"
                       download={UttamKumarShawResume}
@@ -262,7 +262,7 @@ export const Home = () => {
       <Mobile>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+            backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
             // backgroundColor: colorMode == "dark" ? "#edf2f8" : "#1a202c",
           }}
           className="home_Container_mobile"
@@ -302,19 +302,19 @@ export const Home = () => {
                     </span>
                   </div>
                   <button
-                    id="resume-button-2"
-                    onClick={() => {
-                      window.open(
-                        "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
-                        "_blank"
-                      );
-                    }}
-                    className="nav-link resume"
+                    // id="resume-button-2"
+                    // onClick={() => {
+                    //   window.open(
+                    //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
+                    //     "_blank"
+                    //   );
+                    // }}
+                    // className="nav-link resume"
                   >
                     {/* 
                         "https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT" */}
                     <a
-                      href={UttamKumarShawResume}
+                      href="https://drive.google.com/u/0/uc?id=1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn&export=download"
                       target="_blank"
                       rel="norefferer"
                       download={UttamKumarShawResume}

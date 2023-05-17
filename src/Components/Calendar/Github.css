@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
    box-sizing: border-box;
+   background-color: #25274D;
 }
 
 body {
@@ -42,5 +43,5 @@ body {
 }
 
 .github_text span {
-  color: #e4002b;
+  color: #29648A;
 }

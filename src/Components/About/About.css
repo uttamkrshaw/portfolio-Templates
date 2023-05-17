@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #AAABB8;
+  background-color:#25274D ;
 }
 
 body {
@@ -27,7 +29,7 @@ html {
   font-weight: 700;
 }
 .about_heading span {
-  color: #dc143c;
+  color: #29648A;
 }
 
 .about_btn {

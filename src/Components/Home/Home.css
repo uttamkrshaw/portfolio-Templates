@@ -4,12 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #AAABB8;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   width: 100%;
   margin: auto;
+ 
 }
 
 .home_Container {
@@ -59,22 +61,22 @@ body {
 }
 .home_box_content span {
   font-weight: 700;
-  color: #e4002b;
+  color: #29648A;
   margin: 0 0 20px 5px;
 }
 .home_box_content button {
   font-size: 25px;
   font-weight: 600;
-  background-color: #e4002b;
-  color: #fff;
+  background-color: #29648A;
+  color: #AAABB8;
   padding: 6px 20px;
   border-radius: 7px;
   margin-top: 20px;
 }
 .home_box_content button:hover {
-  background-color: #fff;
-  color: #e4002b;
-  border: 2px solid #e4002b;
+  background-color: #2E9CCA;
+  color: #AAABB8;
+  /* border: 2px solid #e4002b; */
   transition: 0.3s ease;
 }
 
@@ -86,8 +88,8 @@ body {
   left: 10px;
 }
 .header_ul li {
-  background-color: #e4002b;
-  color: #fff;
+  background-color: #29648A;
+  color: #AAABB8;
   margin-bottom: 5px;
   padding: 6px;
   font-size: 20px;
@@ -98,9 +100,9 @@ body {
 }
 
 .header_ul li:hover {
-  border: 2px solid #e4002b;
-  background-color: #fff;
-  color: #e4002b;
+  /* border: 2px solid #e4002b; */
+  color: #2E9CCA;
+  background-color: #AAABB8;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -109,16 +111,16 @@ body {
   position: fixed;
   bottom: 30px;
   right: 10px;
-  color: #fff;
-  background-color: #e4002b;
+  color: #AAABB8;
+  background-color: #29648A;
   border-radius: 50%;
   font-size: 30px;
   font-weight: 700;
 }
 .home_up_arrow:hover {
-  border: 1px solid #e4002b;
-  color: #e4002b;
-  background-color: #fff;
+  /* border: 1px solid #e4002b; */
+  color: #29648A;
+  background-color: #AAABB8;
   cursor: pointer;
   transition: 0.3s ease;
 }
