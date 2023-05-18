@@ -18,7 +18,7 @@ body {
 }
 
 .contact_content {
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .input_box {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -66,6 +66,10 @@ body {
   transition: transform 0.5s linear;
 }
 
+h3 {
+  background: transparent;
+}
+
 .icon_box:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -90,8 +94,8 @@ body {
 
 
 .contact_information {
+  width: 100%;
   text-align: center;
-  width: 80%;
   margin: auto;
 }
 

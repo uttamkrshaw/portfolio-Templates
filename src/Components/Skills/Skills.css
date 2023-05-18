@@ -30,23 +30,23 @@ body {
 
 .skills_grid_box {
   height: 170px;
-  background-color: #edf2f7;
+  background-color: #464866;
   border-radius: 10px;
 }
 .skills_grid_box:hover {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #AAABB8;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .skills_grid_box_dark {
   height: 170px;
-  background-color: #2E9CCA;
+  background-color: #464866;
   border-radius: 10px;
 }
 .skills_grid_box_dark:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: AAABB8;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 

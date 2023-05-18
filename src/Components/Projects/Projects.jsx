@@ -14,7 +14,7 @@ export const Projects = () => {
       id="projects"
       className="project_main_container"
       style={{
-        backgroundColor: colorMode === "light" ? "#edf2f8" : "#25274D",
+        backgroundColor: colorMode === "light" ? "#25274D" : "#25274D",
       }}
     >
       <div className="project_container">
@@ -30,7 +30,7 @@ export const Projects = () => {
               <div
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "#464866" : "#464866",
                 }}
               >
                 <div className="project_image">
@@ -80,7 +80,7 @@ export const Projects = () => {
                 // className="project_box"
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "#464866" : "#464866",
                 }}
               >
                 <div className="project_image">
@@ -132,7 +132,7 @@ export const Projects = () => {
                 // className="project_box"
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "#464866" : "#464866",
                 }}
               >
                 <div className="project_image">
@@ -181,7 +181,7 @@ export const Projects = () => {
                 // className="project_box"
                 className="project-card"
                 style={{
-                  backgroundColor: colorMode === "light" ? "white" : "#1a202c",
+                  backgroundColor: colorMode === "light" ? "#464866" : "#464866",
                 }}
               >
                 <div className="project_image">

@@ -33,7 +33,7 @@ export const Contact = () => {
   return (
     <div
       style={{
-        backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
+        backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
         
       }}
       className="contact_container"

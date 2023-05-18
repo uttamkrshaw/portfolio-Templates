@@ -38,7 +38,7 @@ export const Home = () => {
       <Desktop>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
+            backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
           }}
           className="home_Container"
           id="home"
@@ -151,7 +151,7 @@ export const Home = () => {
       <Tablet>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
+            backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
           }}
           className="home_Container_tablet"
           id="home"
@@ -262,7 +262,7 @@ export const Home = () => {
       <Mobile>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#edf2f8" : "#25274D",
+            backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
             // backgroundColor: colorMode == "dark" ? "#edf2f8" : "#1a202c",
           }}
           className="home_Container_mobile"

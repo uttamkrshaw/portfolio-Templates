@@ -76,6 +76,7 @@ button {
 .Ultablet {
   list-style: none;
   margin-top: 30px;
+  color: #AAABB8;
 }
 
 .Ultablet li {
@@ -89,5 +90,5 @@ button {
   cursor: pointer;
   height: 80px;
   width: 100%;
-  background-color: #29648A;
+  background-color: #AAABB8;
 }

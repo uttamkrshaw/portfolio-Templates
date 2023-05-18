@@ -52,7 +52,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#25274D",
+              backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
             }}
             className="navbar"
             id="NavbarId"
@@ -128,7 +128,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#0B0C10",
+              backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
             }}
             className="navbar"
             id="NavbarId"
@@ -166,7 +166,7 @@ export const Navbar = () => {
                       <DrawerContent
                         style={{
                           backgroundColor:
-                            colorMode == "light" ? "#edf2f8" : "#1a202c",
+                            colorMode == "light" ? "#AAABB8" : "#AAABB8",
                         }}
                       >
                         <DrawerCloseButton fontSize="30px" />
@@ -245,7 +245,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#EAE7DC" : "#0B0C10",
+              backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
             }}
             className="navbar"
             id="NavbarId"
@@ -283,7 +283,7 @@ export const Navbar = () => {
                       <DrawerContent
                         style={{
                           backgroundColor:
-                            colorMode == "light" ? "#edf2f8" : "#1a202c",
+                            colorMode == "light" ? "#AAABB8" : "#AAABB8",
                         }}
                       >
                         <DrawerCloseButton fontSize="30px" />
