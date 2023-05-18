@@ -37,7 +37,7 @@ body {
 }
 
 .input_box {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
@@ -146,7 +146,7 @@ h3 {
   font-size: 17px;
 }
 
-/* 
+ 
 @media only screen and (max-width: 350px) {
   .input_box {
     width: 100%;
@@ -157,4 +157,4 @@ h3 {
   .input_box {
     width: 70%;
   }
-}  */
+}  

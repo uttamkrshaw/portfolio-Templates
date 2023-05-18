@@ -65,7 +65,7 @@ button {
 }
 
 .navbar_right a:hover {
-  background-color: #29648A;
+  background-color: #464866;
   color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
@@ -90,5 +90,5 @@ button {
   cursor: pointer;
   height: 80px;
   width: 100%;
-  background-color: #AAABB8;
+  background-color: #464866;
 }

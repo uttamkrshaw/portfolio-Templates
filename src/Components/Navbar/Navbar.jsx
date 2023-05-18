@@ -283,7 +283,7 @@ export const Navbar = () => {
                       <DrawerContent
                         style={{
                           backgroundColor:
-                            colorMode == "light" ? "#AAABB8" : "#AAABB8",
+                            colorMode == "light" ? "#464866" : "#464866",
                         }}
                       >
                         <DrawerCloseButton fontSize="30px" />
@@ -323,7 +323,7 @@ export const Navbar = () => {
                                 download="UttamKumarShawResume"
                                 target="_blank"
                               >
-                                <button id="resume-button-1">Resume</button>
+                              RESUME
                               </a>
                             </li>
                           </ul>

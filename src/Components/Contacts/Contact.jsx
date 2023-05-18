@@ -34,7 +34,7 @@ export const Contact = () => {
     <div
       style={{
         backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
-        
+
       }}
       className="contact_container"
       id="contact"
@@ -42,120 +42,118 @@ export const Contact = () => {
       <div className="contact_content" >
         <div className="contact_heading">
           <h2>
-           <span>CONTACT ME </span> LETS GET IN TOUCH
+            <span>CONTACT ME </span> LETS GET IN TOUCH
           </h2>
         </div>
 
         <div className="bothbox">
           {/* <SimpleGrid columns={{sm:1, md:2 , lg:2}} spacing="40px"> */}
-            <Box>
-              <div className="input_box">
-                <div className="contact_icon">
-                  <Grid templateColumns='repeat(2, 1fr)' gap={5} >
-                    <Box className="icon_box">
-                      <a id="contact-linkedin"
-                        href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"
-                        rel="noopener norefferer"
-                        target="_blank"
-                      >
-                        <div className="icon" id="icon1">
-                          <FaLinkedin />
-                          <h3>LinkedIn</h3>
-                        </div>
-                      </a>
-                    </Box>
-                    <Box className="icon_box">
-                      <a
-                       id="contact-github"
-                        href="https://github.com/uttamkrshaw"
-                        rel="noopener norefferer"
-                        target="_blank"
-                      >
-                        <div className="icon" id="icon2">
-                          <FaGithub />
-                          <h3>GitHub</h3>
-                        </div>
-                      </a>
-                    </Box>
-                    <Box className="icon_box">
-                      <a id="contact-email"
-                        href="mailto:uttamkr5599@gmail.com"
-                        rel="noopener norefferer"
-                        target="_blank"
-                      >
-                        <div className="icon" id="icon3">
-                          <FiMail />
-                          <h3>Gmail</h3>
-                        </div>
-                      </a>
-                    </Box>
-                    <Box className="icon_box">
-                      <a
-                        href="https://wa.me/message/ZM24NUF5DKYVK1"
-                        // href="ZM24NUF5DKYVK1"
-                        rel="noopener norefferer"
-                        target="_blank"
-                      >
-                        <div className="icon" id="icon4">
-                          <BiPhoneCall />
-                          <h3 id="contact-phone">+91-9091390251</h3>
-                        </div>
-                      </a>
-                    </Box>
-                  </Grid>
-                </div>
-                 <div className="contact_information">
-                  <form ref={form} onSubmit={sendEmail}>
-                    <div>
-                      <input
-                        required={true}
-                        name="from_name"
-                        className="input_tag"
-                        type="text"
-                        placeholder="Full Name"
-                      />
-                    </div>
-                    <div>
-                      <input
-                        required={true}
-                        name="user_email"
-                        className="input_tag"
-                        type="text"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div>
-                      <input
-                      name = "user_number"
-                        required={true}
-                        className="input_tag"
-                        type="number"
-                        placeholder="Number"
-                      />
-                    </div>
-                    <div className="input_message">
-                      <textarea
-                        required={true}
-                        name="message"
-                        className="input_tag_text_message"
-                        type="text"
-                        placeholder="Your Message"
-                      />
-                    </div>
-                    <div>
-                      <button type="submit" className="input_btn">
-                        Send Message
-                      </button>
-                    </div>
-                  </form>
-                </div> 
+          <Box>
+            <div className="input_box">
+              <div className="contact_icon">
+                <Grid templateColumns='repeat(2, 1fr)' gap={5} >
+                  <Box className="icon_box">
+                    <a id="contact-linkedin"
+                      href="https://www.linkedin.com/in/uttam-kumar-aa183b126/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <div className="icon" id="icon1">
+                        <FaLinkedin />
+                        <h3>LinkedIn</h3>
+                      </div>
+                    </a>
+                  </Box>
+                  <Box className="icon_box">
+                    <a
+                      id="contact-github"
+                      href="https://github.com/uttamkrshaw"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <div className="icon" id="icon2">
+                        <FaGithub />
+                        <h3>GitHub</h3>
+                      </div>
+                    </a>
+                  </Box>
+                  <Box className="icon_box">
+                    <a id="contact-email"
+                      href="mailto:uttamkr5599@gmail.com"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <div className="icon" id="icon3">
+                        <FiMail />
+                        <h3>Gmail</h3>
+                      </div>
+                    </a>
+                  </Box>
+                  <Box className="icon_box">
+                    <a
+                      href="https://wa.me/message/ZM24NUF5DKYVK1"
+                      // href="ZM24NUF5DKYVK1"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <div className="icon" id="icon4">
+                        <BiPhoneCall />
+                        <h3 id="contact-phone">7209408702</h3>
+                      </div>
+                    </a>
+                  </Box>
+                </Grid>
               </div>
-            </Box>
+              <div className="contact_information">
+                <form ref={form} onSubmit={sendEmail}>
+                  <div>
+                    <input
+                      required={true}
+                      name="from_name"
+                      className="input_tag"
+                      type="text"
+                      placeholder="Full Name"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      required={true}
+                      name="user_email"
+                      className="input_tag"
+                      type="text"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      name="user_number"
+                      required={true}
+                      className="input_tag"
+                      type="number"
+                      placeholder="Number"
+                    />
+                  </div>
+                  <div className="input_message">
+                    <textarea
+                      required={true}
+                      name="message"
+                      className="input_tag_text_message"
+                      type="text"
+                      placeholder="Your Message"
+                    />
+                  </div>
+                  <div>
+                    <button type="submit" className="input_btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </Box>
           {/* </SimpleGrid> */}
         </div>
       </div>
-
-
     </div>
   );
 };
