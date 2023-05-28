@@ -5,6 +5,7 @@ import music from "../Images/projects/music.png"
 import cultfit from "../Images/projects/cultfit.png"
 import purplle from "../Images/projects/purplle.png"
 import zara from "../Images/projects/zara.jpg"
+import indiamart from "../Images/projects/indiamart.png"
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -34,20 +35,22 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={purplle} alt="" />
+                  <img src={indiamart} alt="" />
                 </div>
 
                 <div className="project-title">
-                  <h2>Purplle Clone</h2>
+                  <h2>India Mart Clone</h2>
                 </div>
                 <div className="project-description">
                   <p>
-                    Purplle is an online beauty and personal care store that offers a wide range of products from well-known brands, including skincare, haircare, makeup, and fragrance. The website aims to provide a hassle-free shopping experience with a user-friendly interface and features such as detailed product descriptions, reviews, and ratings.
-                  </p>
+                    IndiaMART is one of India's leading online marketplaces, connecting buyers and sellers from diverse industries. Established in 1996, IndiaMART has grown to become a prominent platform for businesses to discover new opportunities and expand their reach.
+
+                    With millions of products and services listed on its platform.  
+                     </p>
                 </div>
                 <div className="project_tech_stack">
                   <h5>
-                    <span  >Tech Stack :</span> HTML, CSS, JavaScript,
+                    <span  >Tech Stack :</span> React, Chakra UI,
                     API, Icons
 
                   </h5>
@@ -56,7 +59,7 @@ export const Projects = () => {
                   <div className="project-github-link">
                     <a
                       className="project-github-link"
-                      href="https://github.com/uttamkrshaw/dirty-parcel-1754"
+                      href="https://github.com/uttamkrshaw/wandering-cactus-2429-India_Mart-"
                       target="_blank" rel="noreferrer"
                     >
                       <FaGithub />
@@ -64,7 +67,7 @@ export const Projects = () => {
                   </div>
                   <div class="project-deployed-link">
                     <a
-                      href="https://bright-biscuit-2a261c.netlify.app/"
+                      href="https://clone-india-mart.netlify.app/"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -116,7 +119,7 @@ export const Projects = () => {
                   <div className="deploy_link">
                     <a
                       className="project-deployed-link"
-                      href="https://helpful-buttercream-b62142.netlify.app/index.html"
+                      href="https://comfy-bonbon-a3c563.netlify.app/"
                       rel="noreferrer"
                       target="_blank"
                     >
