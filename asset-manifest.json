@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5ecab133.css",
-    "main.js": "/static/js/main.ab2f15a9.js",
+    "main.js": "/static/js/main.f047cdb6.js",
     "static/media/purplle.png": "/static/media/purplle.b32cab9bb5c1639c00f2.png",
     "static/media/cultfit.png": "/static/media/cultfit.1a1de754d05d3d05a5e6.png",
     "static/media/zara.jpg": "/static/media/zara.954a9b7cfffe20d2aed6.jpg",
     "static/media/music.png": "/static/media/music.fccfe033668df1da6f7e.png",
+    "static/media/indiamart.png": "/static/media/indiamart.65f32b6a93e69da1606e.png",
     "static/media/creativity1.png": "/static/media/creativity1.445675a0a00c2757a1d6.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/timeManage.png": "/static/media/timeManage.4644a4b2b8ed5f538eec.png",
@@ -32,10 +33,10 @@
     "static/media/premierpro.webp": "/static/media/premierpro.a0068d4694649cd85a60.webp",
     "index.html": "/index.html",
     "main.5ecab133.css.map": "/static/css/main.5ecab133.css.map",
-    "main.ab2f15a9.js.map": "/static/js/main.ab2f15a9.js.map"
+    "main.f047cdb6.js.map": "/static/js/main.f047cdb6.js.map"
   },
   "entrypoints": [
     "static/css/main.5ecab133.css",
-    "static/js/main.ab2f15a9.js"
+    "static/js/main.f047cdb6.js"
   ]
 }
