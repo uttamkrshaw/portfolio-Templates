@@ -21,12 +21,11 @@ const Default = ({ children }) => {
 };
 
 export const Stars = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
   return (
     <div
       className="stars_container"
       style={{
-        backgroundColor: colorMode === "light" ? "#25274D" : "#25274D",
+        backgroundColor:"#FFFFFF",
       }}
     >
       <div className="main_box">

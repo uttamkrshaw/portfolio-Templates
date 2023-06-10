@@ -7,7 +7,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -33,7 +32,7 @@ export const Contact = () => {
   return (
     <div
       style={{
-        backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
+        backgroundColor:"#FFFFFF",
 
       }}
       className="contact_container"

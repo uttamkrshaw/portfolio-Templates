@@ -41,7 +41,6 @@ const Default = ({ children }) => {
 };
 
 export const Navbar = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
@@ -50,14 +49,9 @@ export const Navbar = () => {
       {/* --------------------------Desktop--------------------------------------- */}
       <Desktop>
         <Box>
-          <div
-            style={{
-              backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
-            }}
-            className="navbar"
-            id="NavbarId"
-          >
-            <div>
+          <div style={{ backgroundColor: "#FFFFFF" }}
+            className="navbar" id="NavbarId">
+            <div className="main">
               <div className="navbar_container">
                 <ul className="navbar_left">
                   <div className="navbar_left_logo">
@@ -65,7 +59,6 @@ export const Navbar = () => {
                       <a href="#">
                         {" "}
                         UTTAM
-                        {/* <span>NIA</span> */}
                       </a>
                     </h2>
                   </div>
@@ -110,13 +103,6 @@ export const Navbar = () => {
                       RESUME
                     </a>
                   </li>
-                  {/* <li>
-                    <IconButton
-                      icon={colorMode == "light" ? <FaMoon /> : <FaSun />}
-                      isRound="true"
-                      onClick={toggleColorMode}
-                    ></IconButton>
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -128,7 +114,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
+              backgroundColor: "#FFFFFF",
             }}
             className="navbar"
             id="NavbarId"
@@ -163,12 +149,7 @@ export const Navbar = () => {
                       finalFocusRef={btnRef}
                     >
                       <DrawerOverlay />
-                      <DrawerContent
-                        style={{
-                          backgroundColor:
-                            colorMode == "light" ? "#AAABB8" : "#AAABB8",
-                        }}
-                      >
+                      <DrawerContent style={{ backgroundColor: "#AAABB8" }}>
                         <DrawerCloseButton fontSize="30px" />
 
                         <DrawerBody textAlign="center">
@@ -220,20 +201,6 @@ export const Navbar = () => {
                       </DrawerContent>
                     </Drawer>
                   </div>
-
-                  {/* <div className="colormode">
-                    <IconButton
-                      icon={
-                        colorMode == "light" ? (
-                          <FaMoon size="35px" />
-                        ) : (
-                          <FaSun size="35px" />
-                        )
-                      }
-                      isRound="true"
-                      onClick={toggleColorMode}
-                    ></IconButton>
-                  </div> */}
                 </Flex>
               </div>
             </div>
@@ -245,7 +212,7 @@ export const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
+              backgroundColor: "#FFFFFF",
             }}
             className="navbar"
             id="NavbarId"
@@ -256,7 +223,6 @@ export const Navbar = () => {
                   <div className="navbar_left_logo">
                     <h2>
                       UTTAM
-                      {/* <span>NIA</span> */}
                     </h2>
                   </div>
                 </ul>
@@ -280,12 +246,7 @@ export const Navbar = () => {
                       finalFocusRef={btnRef}
                     >
                       <DrawerOverlay />
-                      <DrawerContent
-                        style={{
-                          backgroundColor:
-                            colorMode == "light" ? "#464866" : "#464866",
-                        }}
-                      >
+                      <DrawerContent style={{ backgroundColor: "white" }}>
                         <DrawerCloseButton fontSize="30px" />
 
                         <DrawerBody textAlign="center">
@@ -323,7 +284,7 @@ export const Navbar = () => {
                                 download="UttamKumarShawResume"
                                 target="_blank"
                               >
-                              RESUME
+                                RESUME
                               </a>
                             </li>
                           </ul>

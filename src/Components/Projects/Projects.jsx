@@ -15,7 +15,7 @@ export const Projects = () => {
       id="projects"
       className="project_main_container"
       style={{
-        backgroundColor: colorMode === "light" ? "#25274D" : "#25274D",
+        backgroundColor:"#FFFFFF",
       }}
     >
       <div className="project_container">

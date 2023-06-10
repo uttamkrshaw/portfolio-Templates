@@ -11,12 +11,11 @@ import dsa from "../Images/skills/dsa.png";
 import Project_Management from "../Images/skills/projectManagement.png";
 
 export const SoftSkills = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
   return (
     <div
       className="main_container"
       style={{
-        backgroundColor: colorMode === "light" ? "#25274D" : "#25274D",
+        backgroundColor:"#FFFFFF",
       }}
     >
       <div className="softskills_container">

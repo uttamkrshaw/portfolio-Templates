@@ -4,18 +4,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #AAABB8;
+  color: #2D2E32;
+  ;
+}
+
+#home {
+  background-color: white;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   width: 100%;
   margin: auto;
- 
+
 }
 
 .home_Container {
   padding: 50px 0px 0px 50px;
+  background-color: white;
 }
 
 .home_Container_box {
@@ -23,14 +29,16 @@ body {
   justify-content: center;
   align-items: center;
   padding: 130px 0 200px 0;
+  background-color: white;
 }
 
 .home_box_img {
   height: 330px;
   width: 300px;
-
   cursor: pointer;
+  background-color: white;
 }
+
 .home_box_img img {
   height: 100%;
   width: 100%;
@@ -38,15 +46,20 @@ body {
 }
 
 /* ------------------------ Home text--------------------------- */
+.home_box_content {
+  background-color: white;
+}
 
 .home_box_content h6 {
   font-size: 25px;
   font-weight: 700;
+  background-color: white;
 }
 
-.home_box_content h4 {
-  font-size: 65px;
+.home_box_content h5 {
+  font-size: 45px;
   font-weight: 700;
+  background-color: white;
 }
 
 .full {
@@ -59,11 +72,13 @@ body {
   margin-top: -20px;
   font-weight: 700;
 }
+
 .home_box_content span {
   font-weight: 700;
   color: #29648A;
   margin: 0 0 20px 5px;
 }
+
 .home_box_content button {
   font-size: 25px;
   font-weight: 600;
@@ -73,6 +88,7 @@ body {
   border-radius: 7px;
   margin-top: 20px;
 }
+
 .home_box_content button:hover {
   background-color: #2E9CCA;
   color: #AAABB8;
@@ -87,6 +103,7 @@ body {
   bottom: 30px;
   left: 10px;
 }
+
 .header_ul li {
   background-color: #29648A;
   color: #AAABB8;
@@ -117,6 +134,7 @@ body {
   font-size: 30px;
   font-weight: 700;
 }
+
 .home_up_arrow:hover {
   /* border: 1px solid #e4002b; */
   color: #29648A;
@@ -144,6 +162,7 @@ html {
   margin-top: -20px;
   font-weight: 700;
 }
+
 .home_Container_box_tablet span {
   font-weight: 700;
   color: #AAABB8;
@@ -163,6 +182,7 @@ html {
   cursor: pointer;
   margin: -40px 0;
 }
+
 .home_box_img_tablet img {
   height: 100%;
   width: 100%;
@@ -187,12 +207,14 @@ html {
   font-size: 30px;
   font-weight: 700;
 }
+
 .home_box_content_tablet span {
   font-size: 30px;
   font-weight: 700;
   color: #AAABB8;
   margin: 0 0 15px 5px;
 }
+
 .home_box_content_tablet button {
   font-size: 25px;
   font-weight: 600;
@@ -202,6 +224,7 @@ html {
   border-radius: 7px;
   margin-top: 20px;
 }
+
 .home_box_content_tablet button:hover {
   background-color: #fff;
   color: #AAABB8;
@@ -226,6 +249,7 @@ html {
   width: 300px;
   cursor: pointer;
 }
+
 .home_box_img_mobile img {
   height: 100%;
   width: 100%;
@@ -256,12 +280,14 @@ html {
   font-size: 23px;
   font-weight: 700;
 }
+
 .home_box_content_mobile span {
   font-size: 20px;
   font-weight: 700;
   color: #AAABB8;
   margin-left: 5px;
 }
+
 .home_box_content_mobile button {
   font-size: 25px;
   font-weight: 600;
@@ -271,6 +297,7 @@ html {
   border-radius: 7px;
   margin-top: 20px;
 }
+
 .home_box_content_mobile button:hover {
   background-color: #fff;
   color: #AAABB8;

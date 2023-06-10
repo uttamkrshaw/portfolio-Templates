@@ -29,7 +29,6 @@ const Default = ({ children }) => {
 };
 
 export const Home = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
   const resumeOpen = () => {
     window.open(UttamKumarShawResume);
   };
@@ -38,20 +37,19 @@ export const Home = () => {
       <Desktop>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
+            backgroundColor: "#FFFFFF",
           }}
           className="home_Container"
           id="home"
         >
-          <SimpleGrid columns={[1, 1, 1, 2]}>
+          <SimpleGrid columns={[1, 1, 1, 2]} style={{ backgroundColor: 'white' }}>
             <Box height="auto">
               <div className="home_Container_box">
                 <div className="home_box_content">
-                  <h6>Hey, I am </h6>
-                  <h4 id="user-detail-name">Uttam Kumar Shaw</h4>
+                  {/* <h6>Hey, I am </h6> */}
+                  <h5 id="user-detail-name">Full-Stack Developer</h5>
                   <div className="full">
-                    <p></p>
-                    <span>
+                    {/* <span>
                       <Typewriter
                         options={{
                           strings: [
@@ -62,17 +60,17 @@ export const Home = () => {
                           loop: true,
                         }}
                       />
-                    </span>
+                    </span> */}
                   </div>
                   <button
-                    // id="resume-button-2"
-                    // onClick={() => {
-                    //   window.open(
-                    //     "https://drive.google.com/file/d/1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT/view?usp=share_link",
-                    //     "_blank"
-                    //   );
-                    // }}
-                    // className="nav-link resume"
+                  // id="resume-button-2"
+                  // onClick={() => {
+                  //   window.open(
+                  //     "https://drive.google.com/file/d/1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT/view?usp=share_link",
+                  //     "_blank"
+                  //   );
+                  // }}
+                  // className="nav-link resume"
                   >
                     {/* 
                         "https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT" */}
@@ -98,7 +96,6 @@ export const Home = () => {
                   <img
                     className="home-img"
                     style={{ borderRadius: "20px" }}
-                    //src="https://avatars.githubusercontent.com/u/112754761?s=400&u=34585d279e84f196235a079ea6e84bfa9e2cfe19&v=4"
                     src={profile}
                     alt="Profile_image"
                   />
@@ -151,7 +148,7 @@ export const Home = () => {
       <Tablet>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
+            backgroundColor: "#FFFFFF",
           }}
           className="home_Container_tablet"
           id="home"
@@ -190,14 +187,14 @@ export const Home = () => {
                   </div>
 
                   <button
-                    // id="resume-button-2"
-                    // onClick={() => {
-                    //   window.open(
-                    //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
-                    //     "_blank"
-                    //   );
-                    // }}
-                    // className="nav-link resume"
+                  // id="resume-button-2"
+                  // onClick={() => {
+                  //   window.open(
+                  //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
+                  //     "_blank"
+                  //   );
+                  // }}
+                  // className="nav-link resume"
                   >
                     {/* 
                         "https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT" */}
@@ -262,7 +259,7 @@ export const Home = () => {
       <Mobile>
         <div
           style={{
-            backgroundColor: colorMode == "light" ? "#25274D" : "#25274D",
+            backgroundColor: "#FFFFFF",
             // backgroundColor: colorMode == "dark" ? "#edf2f8" : "#1a202c",
           }}
           className="home_Container_mobile"
@@ -291,7 +288,7 @@ export const Home = () => {
                       <Typewriter
                         options={{
                           strings: [
-                           
+
                             "I like to play with Web Applications.",
                             "I'm a Full Stack Developer.",
                           ],
@@ -302,14 +299,14 @@ export const Home = () => {
                     </span>
                   </div>
                   <button
-                    // id="resume-button-2"
-                    // onClick={() => {
-                    //   window.open(
-                    //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
-                    //     "_blank"
-                    //   );
-                    // }}
-                    // className="nav-link resume"
+                  // id="resume-button-2"
+                  // onClick={() => {
+                  //   window.open(
+                  //     "https://drive.google.com/file/d/1R0Gq3cFuy0t_2LlxlGQESS9mOV6Iehwn/view",
+                  //     "_blank"
+                  //   );
+                  // }}
+                  // className="nav-link resume"
                   >
                     {/* 
                         "https://drive.google.com/uc?export=download&id=1zeacaiNntvIbp22U9xJy4mFEdrIsWRhT" */}

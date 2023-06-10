@@ -4,29 +4,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #AAABB8;
-
+  color: #2D2E32;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 .navbar {
+  color: #fff;
   border-radius: 7px !important;
   margin: 0%;
   padding: 0%;
-  /* border: 6px solid rgb(240, 19, 11); */
   border-bottom: none !important;
   height: 70px;
   width: 100%;
   position: fixed;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
 
 .navbar_container {
@@ -34,6 +33,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+}
+
+.navbar_left {
+  background-color: white;
 }
 
 .navbar_left_logo {
@@ -41,11 +45,15 @@ html {
   justify-content: center;
   align-items: center;
   margin-left: 40px;
+  background-color: white;
 }
+
 .navbar_left_logo h2 {
   font-weight: 800;
   font-size: 33px;
+  background-color: white;
 }
+
 .navbar_left_logo span {
   color: #2E9CCA;
 }
@@ -54,19 +62,24 @@ html {
   display: flex;
   list-style-type: none;
   align-items: center;
+  background-color: white;
+}
+
+.navbar_right li {
+  background-color: white;
 }
 
 .navbar_right li a,
 button {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 17px;
   padding: 0 15px;
+  background-color: white;
 }
 
 .navbar_right a:hover {
-  background-color: #464866;
-  color: #fff;
+  color: blue;
   padding: 10px 15px;
   border-radius: 10px;
 }
@@ -76,7 +89,7 @@ button {
 .Ultablet {
   list-style: none;
   margin-top: 30px;
-  color: #AAABB8;
+  color: white;
 }
 
 .Ultablet li {
@@ -90,5 +103,5 @@ button {
   cursor: pointer;
   height: 80px;
   width: 100%;
-  background-color: #464866;
+  background-color: blue;
 }

@@ -12,15 +12,13 @@ function App() {
     return (
         <div>
             <Navbar/>
-            <Home/>
-            <About/>
+            <Home/> {/* <About/>
             <Projects/>
             <Skills/>
             <SoftSkills/>
             <Github/>
             <Stars/>
-            <Contact/>
-        </div>
+            <Contact/> */} </div>
     );
 }
 export default App;
